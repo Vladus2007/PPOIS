@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: PPOISFirstSecond.IReadFromDatabase
+  commentId: T:PPOISFirstSecond.IReadFromDatabase
+  id: IReadFromDatabase
+  parent: PPOISFirstSecond
+  children:
+  - PPOISFirstSecond.IReadFromDatabase.Read
+  langs:
+  - csharp
+  - vb
+  name: IReadFromDatabase
+  nameWithType: IReadFromDatabase
+  fullName: PPOISFirstSecond.IReadFromDatabase
+  type: Interface
+  source:
+    id: IReadFromDatabase
+    path: C:\Users\User\source\repos\PPOISFirstSecond\src\PPOISFirstSecond\IReadFromDatabase.cs
+    startLine: 8
+  assemblies:
+  - PPOISFirstSecond
+  namespace: PPOISFirstSecond
+  syntax:
+    content: public interface IReadFromDatabase
+    content.vb: Public Interface IReadFromDatabase
+- uid: PPOISFirstSecond.IReadFromDatabase.Read
+  commentId: M:PPOISFirstSecond.IReadFromDatabase.Read
+  id: Read
+  parent: PPOISFirstSecond.IReadFromDatabase
+  langs:
+  - csharp
+  - vb
+  name: Read()
+  nameWithType: IReadFromDatabase.Read()
+  fullName: PPOISFirstSecond.IReadFromDatabase.Read()
+  type: Method
+  source:
+    id: Read
+    path: C:\Users\User\source\repos\PPOISFirstSecond\src\PPOISFirstSecond\IReadFromDatabase.cs
+    startLine: 10
+  assemblies:
+  - PPOISFirstSecond
+  namespace: PPOISFirstSecond
+  syntax:
+    content: IEnumerable<WordPair> Read()
+    return:
+      type: System.Collections.Generic.IEnumerable{PPOISFirstSecond.WordPair}
+    content.vb: Function Read() As IEnumerable(Of WordPair)
+  overload: PPOISFirstSecond.IReadFromDatabase.Read*
+references:
+- uid: PPOISFirstSecond
+  commentId: N:PPOISFirstSecond
+  href: PPOISFirstSecond.html
+  name: PPOISFirstSecond
+  nameWithType: PPOISFirstSecond
+  fullName: PPOISFirstSecond
+- uid: PPOISFirstSecond.IReadFromDatabase.Read*
+  commentId: Overload:PPOISFirstSecond.IReadFromDatabase.Read
+  href: PPOISFirstSecond.IReadFromDatabase.html#PPOISFirstSecond_IReadFromDatabase_Read
+  name: Read
+  nameWithType: IReadFromDatabase.Read
+  fullName: PPOISFirstSecond.IReadFromDatabase.Read
+- uid: System.Collections.Generic.IEnumerable{PPOISFirstSecond.WordPair}
+  commentId: T:System.Collections.Generic.IEnumerable{PPOISFirstSecond.WordPair}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<WordPair>
+  nameWithType: IEnumerable<WordPair>
+  fullName: System.Collections.Generic.IEnumerable<PPOISFirstSecond.WordPair>
+  nameWithType.vb: IEnumerable(Of WordPair)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of PPOISFirstSecond.WordPair)
+  name.vb: IEnumerable(Of WordPair)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: PPOISFirstSecond.WordPair
+    name: WordPair
+    href: PPOISFirstSecond.WordPair.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: PPOISFirstSecond.WordPair
+    name: WordPair
+    href: PPOISFirstSecond.WordPair.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

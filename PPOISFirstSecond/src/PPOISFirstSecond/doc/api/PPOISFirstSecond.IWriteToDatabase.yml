@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: PPOISFirstSecond.IWriteToDatabase
+  commentId: T:PPOISFirstSecond.IWriteToDatabase
+  id: IWriteToDatabase
+  parent: PPOISFirstSecond
+  children:
+  - PPOISFirstSecond.IWriteToDatabase.WriteDatabase(PPOISFirstSecond.WordPair)
+  langs:
+  - csharp
+  - vb
+  name: IWriteToDatabase
+  nameWithType: IWriteToDatabase
+  fullName: PPOISFirstSecond.IWriteToDatabase
+  type: Interface
+  source:
+    id: IWriteToDatabase
+    path: C:\Users\User\source\repos\PPOISFirstSecond\src\PPOISFirstSecond\IWriteToDatabase.cs
+    startLine: 8
+  assemblies:
+  - PPOISFirstSecond
+  namespace: PPOISFirstSecond
+  syntax:
+    content: public interface IWriteToDatabase
+    content.vb: Public Interface IWriteToDatabase
+- uid: PPOISFirstSecond.IWriteToDatabase.WriteDatabase(PPOISFirstSecond.WordPair)
+  commentId: M:PPOISFirstSecond.IWriteToDatabase.WriteDatabase(PPOISFirstSecond.WordPair)
+  id: WriteDatabase(PPOISFirstSecond.WordPair)
+  parent: PPOISFirstSecond.IWriteToDatabase
+  langs:
+  - csharp
+  - vb
+  name: WriteDatabase(WordPair)
+  nameWithType: IWriteToDatabase.WriteDatabase(WordPair)
+  fullName: PPOISFirstSecond.IWriteToDatabase.WriteDatabase(PPOISFirstSecond.WordPair)
+  type: Method
+  source:
+    id: WriteDatabase
+    path: C:\Users\User\source\repos\PPOISFirstSecond\src\PPOISFirstSecond\IWriteToDatabase.cs
+    startLine: 10
+  assemblies:
+  - PPOISFirstSecond
+  namespace: PPOISFirstSecond
+  syntax:
+    content: void WriteDatabase(WordPair pair)
+    parameters:
+    - id: pair
+      type: PPOISFirstSecond.WordPair
+    content.vb: Sub WriteDatabase(pair As WordPair)
+  overload: PPOISFirstSecond.IWriteToDatabase.WriteDatabase*
+references:
+- uid: PPOISFirstSecond
+  commentId: N:PPOISFirstSecond
+  href: PPOISFirstSecond.html
+  name: PPOISFirstSecond
+  nameWithType: PPOISFirstSecond
+  fullName: PPOISFirstSecond
+- uid: PPOISFirstSecond.IWriteToDatabase.WriteDatabase*
+  commentId: Overload:PPOISFirstSecond.IWriteToDatabase.WriteDatabase
+  href: PPOISFirstSecond.IWriteToDatabase.html#PPOISFirstSecond_IWriteToDatabase_WriteDatabase_PPOISFirstSecond_WordPair_
+  name: WriteDatabase
+  nameWithType: IWriteToDatabase.WriteDatabase
+  fullName: PPOISFirstSecond.IWriteToDatabase.WriteDatabase
+- uid: PPOISFirstSecond.WordPair
+  commentId: T:PPOISFirstSecond.WordPair
+  parent: PPOISFirstSecond
+  href: PPOISFirstSecond.WordPair.html
+  name: WordPair
+  nameWithType: WordPair
+  fullName: PPOISFirstSecond.WordPair

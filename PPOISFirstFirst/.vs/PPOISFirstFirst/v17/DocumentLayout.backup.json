@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\PPOISFirstFirst\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B0AC497-0BC0-430D-B725-496E550D572A}|PPOISFirstFirst\\PPOISFirstFirst.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ppoisfirstfirst\\ppoisfirstfirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B0AC497-0BC0-430D-B725-496E550D572A}|PPOISFirstFirst\\PPOISFirstFirst.csproj|solutionrelative:ppoisfirstfirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B0AC497-0BC0-430D-B725-496E550D572A}|PPOISFirstFirst\\PPOISFirstFirst.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ppoisfirstfirst\\ppoisfirstfirst\\ilength.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B0AC497-0BC0-430D-B725-496E550D572A}|PPOISFirstFirst\\PPOISFirstFirst.csproj|solutionrelative:ppoisfirstfirst\\ilength.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B0AC497-0BC0-430D-B725-496E550D572A}|PPOISFirstFirst\\PPOISFirstFirst.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ppoisfirstfirst\\ppoisfirstfirst\\calculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B0AC497-0BC0-430D-B725-496E550D572A}|PPOISFirstFirst\\PPOISFirstFirst.csproj|solutionrelative:ppoisfirstfirst\\calculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF8F3A5-A6E2-4453-A509-8EF06624E1DB}|Test\\UnitTests.Tests\\UnitTests.Tests.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ppoisfirstfirst\\test\\unittests.tests\\coverletargs.runsettings||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1CF8F3A5-A6E2-4453-A509-8EF06624E1DB}|Test\\UnitTests.Tests\\UnitTests.Tests.csproj|solutionrelative:test\\unittests.tests\\coverletargs.runsettings||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF8F3A5-A6E2-4453-A509-8EF06624E1DB}|Test\\UnitTests.Tests\\UnitTests.Tests.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ppoisfirstfirst\\test\\unittests.tests\\unittests.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1CF8F3A5-A6E2-4453-A509-8EF06624E1DB}|Test\\UnitTests.Tests\\UnitTests.Tests.csproj|solutionrelative:test\\unittests.tests\\unittests.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B0AC497-0BC0-430D-B725-496E550D572A}|PPOISFirstFirst\\PPOISFirstFirst.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ppoisfirstfirst\\ppoisfirstfirst\\ppoisfirstfirst.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6B0AC497-0BC0-430D-B725-496E550D572A}|PPOISFirstFirst\\PPOISFirstFirst.csproj|solutionrelative:ppoisfirstfirst\\ppoisfirstfirst.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B0AC497-0BC0-430D-B725-496E550D572A}|PPOISFirstFirst\\PPOISFirstFirst.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ppoisfirstfirst\\ppoisfirstfirst\\doc\\docfx.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6B0AC497-0BC0-430D-B725-496E550D572A}|PPOISFirstFirst\\PPOISFirstFirst.csproj|solutionrelative:ppoisfirstfirst\\doc\\docfx.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B0AC497-0BC0-430D-B725-496E550D572A}|PPOISFirstFirst\\PPOISFirstFirst.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ppoisfirstfirst\\ppoisfirstfirst\\vector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B0AC497-0BC0-430D-B725-496E550D572A}|PPOISFirstFirst\\PPOISFirstFirst.csproj|solutionrelative:ppoisfirstfirst\\vector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF8F3A5-A6E2-4453-A509-8EF06624E1DB}|Test\\UnitTests.Tests\\UnitTests.Tests.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ppoisfirstfirst\\test\\unittests.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CF8F3A5-A6E2-4453-A509-8EF06624E1DB}|Test\\UnitTests.Tests\\UnitTests.Tests.csproj|solutionrelative:test\\unittests.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Calculate.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\PPOISFirstFirst\\PPOISFirstFirst\\Calculate.cs",
+              "RelativeDocumentMoniker": "PPOISFirstFirst\\Calculate.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\PPOISFirstFirst\\PPOISFirstFirst\\Calculate.cs",
+              "RelativeToolTip": "PPOISFirstFirst\\Calculate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T11:21:17.827Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "coverletArgs.runsettings",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\PPOISFirstFirst\\Test\\UnitTests.Tests\\coverletArgs.runsettings",
+              "RelativeDocumentMoniker": "Test\\UnitTests.Tests\\coverletArgs.runsettings",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\PPOISFirstFirst\\Test\\UnitTests.Tests\\coverletArgs.runsettings",
+              "RelativeToolTip": "Test\\UnitTests.Tests\\coverletArgs.runsettings",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-14T18:47:09.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "docfx.json",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\PPOISFirstFirst\\PPOISFirstFirst\\doc\\docfx.json",
+              "RelativeDocumentMoniker": "PPOISFirstFirst\\doc\\docfx.json",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\PPOISFirstFirst\\PPOISFirstFirst\\doc\\docfx.json",
+              "RelativeToolTip": "PPOISFirstFirst\\doc\\docfx.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-14T18:34:05.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PPOISFirstFirst.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\PPOISFirstFirst\\PPOISFirstFirst\\PPOISFirstFirst.csproj",
+              "RelativeDocumentMoniker": "PPOISFirstFirst\\PPOISFirstFirst.csproj",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\PPOISFirstFirst\\PPOISFirstFirst\\PPOISFirstFirst.csproj",
+              "RelativeToolTip": "PPOISFirstFirst\\PPOISFirstFirst.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-10T19:57:29.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\PPOISFirstFirst\\Test\\UnitTests.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "Test\\UnitTests.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\PPOISFirstFirst\\Test\\UnitTests.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "Test\\UnitTests.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAH8BAAAAmZmZmZkswA4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T17:21:27.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ILength.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\PPOISFirstFirst\\PPOISFirstFirst\\ILength.cs",
+              "RelativeDocumentMoniker": "PPOISFirstFirst\\ILength.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\PPOISFirstFirst\\PPOISFirstFirst\\ILength.cs",
+              "RelativeToolTip": "PPOISFirstFirst\\ILength.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T11:18:47.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Vector.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\PPOISFirstFirst\\PPOISFirstFirst\\Vector.cs",
+              "RelativeDocumentMoniker": "PPOISFirstFirst\\Vector.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\PPOISFirstFirst\\PPOISFirstFirst\\Vector.cs",
+              "RelativeToolTip": "PPOISFirstFirst\\Vector.cs",
+              "ViewState": "AgIAABQBAACAMTMzMzMwwBkBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:58:55.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnitTests.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\PPOISFirstFirst\\Test\\UnitTests.Tests\\UnitTests.Tests.csproj",
+              "RelativeDocumentMoniker": "Test\\UnitTests.Tests\\UnitTests.Tests.csproj",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\PPOISFirstFirst\\Test\\UnitTests.Tests\\UnitTests.Tests.csproj",
+              "RelativeToolTip": "Test\\UnitTests.Tests\\UnitTests.Tests.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-10T17:21:24.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\PPOISFirstFirst\\PPOISFirstFirst\\Program.cs",
+              "RelativeDocumentMoniker": "PPOISFirstFirst\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\PPOISFirstFirst\\PPOISFirstFirst\\Program.cs",
+              "RelativeToolTip": "PPOISFirstFirst\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:45:48.195Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|c:\\users\\user\\source\\repos\\ppoisfirstsecond\\src\\ppoisfirstsecond\\doc\\docfx.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|solutionrelative:ppoisfirstsecond\\doc\\docfx.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|c:\\users\\user\\source\\repos\\ppoisfirstsecond\\src\\ppoisfirstsecond\\englishrussiandictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|solutionrelative:ppoisfirstsecond\\englishrussiandictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|c:\\users\\user\\source\\repos\\ppoisfirstsecond\\src\\ppoisfirstsecond\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|solutionrelative:ppoisfirstsecond\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|c:\\users\\user\\source\\repos\\ppoisfirstsecond\\src\\ppoisfirstsecond\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|solutionrelative:ppoisfirstsecond\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|c:\\users\\user\\source\\repos\\ppoisfirstsecond\\src\\ppoisfirstsecond\\iwritetodatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|solutionrelative:ppoisfirstsecond\\iwritetodatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|c:\\users\\user\\source\\repos\\ppoisfirstsecond\\src\\ppoisfirstsecond\\ireadfromdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|solutionrelative:ppoisfirstsecond\\ireadfromdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|c:\\users\\user\\source\\repos\\ppoisfirstsecond\\src\\ppoisfirstsecond\\iinsert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|solutionrelative:ppoisfirstsecond\\iinsert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|c:\\users\\user\\source\\repos\\ppoisfirstsecond\\src\\ppoisfirstsecond\\readfromdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|solutionrelative:ppoisfirstsecond\\readfromdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "docfx.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\src\\PPOISFirstSecond\\doc\\docfx.json",
+              "RelativeDocumentMoniker": "PPOISFirstSecond\\doc\\docfx.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\src\\PPOISFirstSecond\\doc\\docfx.json",
+              "RelativeToolTip": "PPOISFirstSecond\\doc\\docfx.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-14T18:15:46.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReadFromDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\src\\PPOISFirstSecond\\ReadFromDatabase.cs",
+              "RelativeDocumentMoniker": "PPOISFirstSecond\\ReadFromDatabase.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\src\\PPOISFirstSecond\\ReadFromDatabase.cs",
+              "RelativeToolTip": "PPOISFirstSecond\\ReadFromDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T17:21:27.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\src\\PPOISFirstSecond\\Program.cs",
+              "RelativeDocumentMoniker": "PPOISFirstSecond\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\src\\PPOISFirstSecond\\Program.cs",
+              "RelativeToolTip": "PPOISFirstSecond\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T17:21:26.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IWriteToDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\src\\PPOISFirstSecond\\IWriteToDatabase.cs",
+              "RelativeDocumentMoniker": "PPOISFirstSecond\\IWriteToDatabase.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\src\\PPOISFirstSecond\\IWriteToDatabase.cs",
+              "RelativeToolTip": "PPOISFirstSecond\\IWriteToDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T17:21:25.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IReadFromDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\src\\PPOISFirstSecond\\IReadFromDatabase.cs",
+              "RelativeDocumentMoniker": "PPOISFirstSecond\\IReadFromDatabase.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\src\\PPOISFirstSecond\\IReadFromDatabase.cs",
+              "RelativeToolTip": "PPOISFirstSecond\\IReadFromDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T17:21:24.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnglishRussianDictionary.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\src\\PPOISFirstSecond\\EnglishRussianDictionary.cs",
+              "RelativeDocumentMoniker": "PPOISFirstSecond\\EnglishRussianDictionary.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\src\\PPOISFirstSecond\\EnglishRussianDictionary.cs",
+              "RelativeToolTip": "PPOISFirstSecond\\EnglishRussianDictionary.cs",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAiwN0AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T17:21:22.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IInsert.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\src\\PPOISFirstSecond\\IInsert.cs",
+              "RelativeDocumentMoniker": "PPOISFirstSecond\\IInsert.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\src\\PPOISFirstSecond\\IInsert.cs",
+              "RelativeToolTip": "PPOISFirstSecond\\IInsert.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T17:21:20.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\src\\PPOISFirstSecond\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "PPOISFirstSecond\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\src\\PPOISFirstSecond\\AppDbContext.cs",
+              "RelativeToolTip": "PPOISFirstSecond\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T17:21:17.525Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

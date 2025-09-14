@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Vector | mysite </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Vector | mysite ">
+      
+      <meta name="description" content="Представляет трехмерный вектор с координатами X, Y, Z и вычисляемой длиной">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="mysite">
+            mysite
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="PPOISFirstFirst.Vector">
+
+
+
+  <h1 id="PPOISFirstFirst_Vector" data-uid="PPOISFirstFirst.Vector" class="text-break">
+Class Vector  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="PPOISFirstFirst.html">PPOISFirstFirst</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>PPOISFirstFirst.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Представляет трехмерный вектор с координатами X, Y, Z и вычисляемой длиной</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Vector</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Vector</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="PPOISFirstFirst_Vector__ctor_" data-uid="PPOISFirstFirst.Vector.#ctor*"></a>
+
+  <h3 id="PPOISFirstFirst_Vector__ctor_System_Double_System_Double_System_Double_" data-uid="PPOISFirstFirst.Vector.#ctor(System.Double,System.Double,System.Double)">
+  Vector(double, double, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Инициализирует новый экземпляр вектора по координатам</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector(double x, double y, double z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>X-координата</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Y-координата</p>
+</dd>
+    <dt><code>z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Z-координата</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PPOISFirstFirst_Vector__ctor_" data-uid="PPOISFirstFirst.Vector.#ctor*"></a>
+
+  <h3 id="PPOISFirstFirst_Vector__ctor_System_Double_System_Double_System_Double_PPOISFirstFirst_ILength_" data-uid="PPOISFirstFirst.Vector.#ctor(System.Double,System.Double,System.Double,PPOISFirstFirst.ILength)">
+  Vector(double, double, double, ILength)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Инициализирует новый экземпляр вектора с пользовательским калькулятором длины</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector(double x, double y, double z, ILength lengthCalculator)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>X-координата</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Y-координата</p>
+</dd>
+    <dt><code>z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Z-координата</p>
+</dd>
+    <dt><code>lengthCalculator</code> <a class="xref" href="PPOISFirstFirst.ILength.html">ILength</a></dt>
+    <dd><p>Калькулятор длины вектора</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd><p>Выбрасывается, если lengthCalculator равен null</p>
+</dd>
+  </dl>
+
+
+
+  <a id="PPOISFirstFirst_Vector__ctor_" data-uid="PPOISFirstFirst.Vector.#ctor*"></a>
+
+  <h3 id="PPOISFirstFirst_Vector__ctor_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_" data-uid="PPOISFirstFirst.Vector.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+  Vector(double, double, double, double, double, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Инициализирует новый экземпляр вектора по двум точкам в пространстве</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector(double x1, double x2, double y1, double y2, double z1, double z2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>X-координата первой точки</p>
+</dd>
+    <dt><code>x2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>X-координата второй точки</p>
+</dd>
+    <dt><code>y1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Y-координата первой точки</p>
+</dd>
+    <dt><code>y2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Y-координата второй точки</p>
+</dd>
+    <dt><code>z1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Z-координата первой точки</p>
+</dd>
+    <dt><code>z2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Z-координата второй точки</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="PPOISFirstFirst_Vector_Length_" data-uid="PPOISFirstFirst.Vector.Length*"></a>
+
+  <h3 id="PPOISFirstFirst_Vector_Length" data-uid="PPOISFirstFirst.Vector.Length">
+  Length
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Длина вектора</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Length { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PPOISFirstFirst_Vector_X_" data-uid="PPOISFirstFirst.Vector.X*"></a>
+
+  <h3 id="PPOISFirstFirst_Vector_X" data-uid="PPOISFirstFirst.Vector.X">
+  X
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Координата X вектора</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double X { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PPOISFirstFirst_Vector_Y_" data-uid="PPOISFirstFirst.Vector.Y*"></a>
+
+  <h3 id="PPOISFirstFirst_Vector_Y" data-uid="PPOISFirstFirst.Vector.Y">
+  Y
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Координата Y вектора</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Y { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PPOISFirstFirst_Vector_Z_" data-uid="PPOISFirstFirst.Vector.Z*"></a>
+
+  <h3 id="PPOISFirstFirst_Vector_Z" data-uid="PPOISFirstFirst.Vector.Z">
+  Z
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Координата Z вектора</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Z { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="PPOISFirstFirst_Vector_Equals_" data-uid="PPOISFirstFirst.Vector.Equals*"></a>
+
+  <h3 id="PPOISFirstFirst_Vector_Equals_System_Object_" data-uid="PPOISFirstFirst.Vector.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Определяет, равен ли указанный объект текущему вектору</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Объект для сравнения</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True если объекты равны, иначе False</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PPOISFirstFirst_Vector_GetHashCode_" data-uid="PPOISFirstFirst.Vector.GetHashCode*"></a>
+
+  <h3 id="PPOISFirstFirst_Vector_GetHashCode" data-uid="PPOISFirstFirst.Vector.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Возвращает хэш-код для текущего вектора</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Хэш-код, основанный на координатах X, Y, Z</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PPOISFirstFirst_Vector_ToString_" data-uid="PPOISFirstFirst.Vector.ToString*"></a>
+
+  <h3 id="PPOISFirstFirst_Vector_ToString" data-uid="PPOISFirstFirst.Vector.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Возвращает строковое представление вектора</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Строка в формате &quot;Vector(X: {X}, Y: {Y}, Z: {Z}, Length: {Length})&quot;</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+
+  <a id="PPOISFirstFirst_Vector_op_Addition_" data-uid="PPOISFirstFirst.Vector.op_Addition*"></a>
+
+  <h3 id="PPOISFirstFirst_Vector_op_Addition_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_" data-uid="PPOISFirstFirst.Vector.op_Addition(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)">
+  operator +(Vector, Vector)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Складывает два вектора</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector operator +(Vector a, Vector b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="PPOISFirstFirst.Vector.html">Vector</a></dt>
+    <dd><p>Первый вектор</p>
+</dd>
+    <dt><code>b</code> <a class="xref" href="PPOISFirstFirst.Vector.html">Vector</a></dt>
+    <dd><p>Второй вектор</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PPOISFirstFirst.Vector.html">Vector</a></dt>
+    <dd><p>Новый вектор, являющийся суммой двух векторов</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd><p>Выбрасывается, если любой из векторов равен null</p>
+</dd>
+  </dl>
+
+
+
+  <a id="PPOISFirstFirst_Vector_op_Division_" data-uid="PPOISFirstFirst.Vector.op_Division*"></a>
+
+  <h3 id="PPOISFirstFirst_Vector_op_Division_PPOISFirstFirst_Vector_System_Double_" data-uid="PPOISFirstFirst.Vector.op_Division(PPOISFirstFirst.Vector,System.Double)">
+  operator /(Vector, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Делит вектор на скаляр</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector operator /(Vector vector, double scalar)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <a class="xref" href="PPOISFirstFirst.Vector.html">Vector</a></dt>
+    <dd><p>Вектор для деления</p>
+</dd>
+    <dt><code>scalar</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Скалярное значение</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PPOISFirstFirst.Vector.html">Vector</a></dt>
+    <dd><p>Новый вектор, разделенный на скаляр</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd><p>Выбрасывается, если вектор равен null</p>
+</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dividebyzeroexception">DivideByZeroException</a></dt>
+    <dd><p>Выбрасывается, если скаляр равен нулю</p>
+</dd>
+  </dl>
+
+
+
+  <a id="PPOISFirstFirst_Vector_op_ExclusiveOr_" data-uid="PPOISFirstFirst.Vector.op_ExclusiveOr*"></a>
+
+  <h3 id="PPOISFirstFirst_Vector_op_ExclusiveOr_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_" data-uid="PPOISFirstFirst.Vector.op_ExclusiveOr(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)">
+  operator ^(Vector, Vector)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Вычисляет косинус угла между двумя векторами</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double operator ^(Vector a, Vector b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="PPOISFirstFirst.Vector.html">Vector</a></dt>
+    <dd><p>Первый вектор</p>
+</dd>
+    <dt><code>b</code> <a class="xref" href="PPOISFirstFirst.Vector.html">Vector</a></dt>
+    <dd><p>Второй вектор</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Косинус угла между векторами</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd><p>Выбрасывается, если любой из векторов равен null</p>
+</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>Выбрасывается, если длина любого из векторов равна нулю</p>
+</dd>
+  </dl>
+
+
+
+  <a id="PPOISFirstFirst_Vector_op_GreaterThan_" data-uid="PPOISFirstFirst.Vector.op_GreaterThan*"></a>
+
+  <h3 id="PPOISFirstFirst_Vector_op_GreaterThan_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_" data-uid="PPOISFirstFirst.Vector.op_GreaterThan(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)">
+  operator &gt;(Vector, Vector)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Проверяет, больше ли один вектор другого по двум координатам при равенстве третьей</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &gt;(Vector a, Vector b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="PPOISFirstFirst.Vector.html">Vector</a></dt>
+    <dd><p>Первый вектор</p>
+</dd>
+    <dt><code>b</code> <a class="xref" href="PPOISFirstFirst.Vector.html">Vector</a></dt>
+    <dd><p>Второй вектор</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True если вектор a больше вектора b по двум координатам</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd><p>Выбрасывается, если любой из векторов равен null</p>
+</dd>
+  </dl>
+
+
+
+  <a id="PPOISFirstFirst_Vector_op_GreaterThanOrEqual_" data-uid="PPOISFirstFirst.Vector.op_GreaterThanOrEqual*"></a>
+
+  <h3 id="PPOISFirstFirst_Vector_op_GreaterThanOrEqual_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_" data-uid="PPOISFirstFirst.Vector.op_GreaterThanOrEqual(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)">
+  operator &gt;=(Vector, Vector)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Проверяет, больше или равен ли один вектор другого по двум координатам при равенстве третьей</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &gt;=(Vector a, Vector b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="PPOISFirstFirst.Vector.html">Vector</a></dt>
+    <dd><p>Первый вектор</p>
+</dd>
+    <dt><code>b</code> <a class="xref" href="PPOISFirstFirst.Vector.html">Vector</a></dt>
+    <dd><p>Второй вектор</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True если вектор a больше или равен вектору b по двум координатам</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd><p>Выбрасывается, если любой из векторов равен null</p>
+</dd>
+  </dl>
+
+
+
+  <a id="PPOISFirstFirst_Vector_op_LessThan_" data-uid="PPOISFirstFirst.Vector.op_LessThan*"></a>
+
+  <h3 id="PPOISFirstFirst_Vector_op_LessThan_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_" data-uid="PPOISFirstFirst.Vector.op_LessThan(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)">
+  operator &lt;(Vector, Vector)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Проверяет, меньше ли один вектор другого по двум координатам при равенстве третьей</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &lt;(Vector a, Vector b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="PPOISFirstFirst.Vector.html">Vector</a></dt>
+    <dd><p>Первый вектор</p>
+</dd>
+    <dt><code>b</code> <a class="xref" href="PPOISFirstFirst.Vector.html">Vector</a></dt>
+    <dd><p>Второй вектор</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True если вектор a меньше вектора b по двум координатам</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd><p>Выбрасывается, если любой из векторов равен null</p>
+</dd>
+  </dl>
+
+
+
+  <a id="PPOISFirstFirst_Vector_op_LessThanOrEqual_" data-uid="PPOISFirstFirst.Vector.op_LessThanOrEqual*"></a>
+
+  <h3 id="PPOISFirstFirst_Vector_op_LessThanOrEqual_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_" data-uid="PPOISFirstFirst.Vector.op_LessThanOrEqual(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)">
+  operator &lt;=(Vector, Vector)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Проверяет, меньше или равен ли один вектор другого по двум координатам при равенстве третьей</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &lt;=(Vector a, Vector b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="PPOISFirstFirst.Vector.html">Vector</a></dt>
+    <dd><p>Первый вектор</p>
+</dd>
+    <dt><code>b</code> <a class="xref" href="PPOISFirstFirst.Vector.html">Vector</a></dt>
+    <dd><p>Второй вектор</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True если вектор a меньше или равен вектору b по двум координатам</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd><p>Выбрасывается, если любой из векторов равен null</p>
+</dd>
+  </dl>
+
+
+
+  <a id="PPOISFirstFirst_Vector_op_Multiply_" data-uid="PPOISFirstFirst.Vector.op_Multiply*"></a>
+
+  <h3 id="PPOISFirstFirst_Vector_op_Multiply_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_" data-uid="PPOISFirstFirst.Vector.op_Multiply(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)">
+  operator *(Vector, Vector)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Вычисляет векторное произведение двух векторов</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector operator *(Vector a, Vector b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="PPOISFirstFirst.Vector.html">Vector</a></dt>
+    <dd><p>Первый вектор</p>
+</dd>
+    <dt><code>b</code> <a class="xref" href="PPOISFirstFirst.Vector.html">Vector</a></dt>
+    <dd><p>Второй вектор</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PPOISFirstFirst.Vector.html">Vector</a></dt>
+    <dd><p>Новый вектор, являющийся векторным произведением</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd><p>Выбрасывается, если любой из векторов равен null</p>
+</dd>
+  </dl>
+
+
+
+  <a id="PPOISFirstFirst_Vector_op_Multiply_" data-uid="PPOISFirstFirst.Vector.op_Multiply*"></a>
+
+  <h3 id="PPOISFirstFirst_Vector_op_Multiply_PPOISFirstFirst_Vector_System_Double_" data-uid="PPOISFirstFirst.Vector.op_Multiply(PPOISFirstFirst.Vector,System.Double)">
+  operator *(Vector, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Умножает вектор на скаляр</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector operator *(Vector vector, double scalar)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <a class="xref" href="PPOISFirstFirst.Vector.html">Vector</a></dt>
+    <dd><p>Вектор для умножения</p>
+</dd>
+    <dt><code>scalar</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Скалярное значение</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PPOISFirstFirst.Vector.html">Vector</a></dt>
+    <dd><p>Новый вектор, умноженный на скаляр</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd><p>Выбрасывается, если вектор равен null</p>
+</dd>
+  </dl>
+
+
+
+  <a id="PPOISFirstFirst_Vector_op_Multiply_" data-uid="PPOISFirstFirst.Vector.op_Multiply*"></a>
+
+  <h3 id="PPOISFirstFirst_Vector_op_Multiply_System_Double_PPOISFirstFirst_Vector_" data-uid="PPOISFirstFirst.Vector.op_Multiply(System.Double,PPOISFirstFirst.Vector)">
+  operator *(double, Vector)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Умножает скаляр на вектор</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector operator *(double scalar, Vector vector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>scalar</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Скалярное значение</p>
+</dd>
+    <dt><code>vector</code> <a class="xref" href="PPOISFirstFirst.Vector.html">Vector</a></dt>
+    <dd><p>Вектор для умножения</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PPOISFirstFirst.Vector.html">Vector</a></dt>
+    <dd><p>Новый вектор, умноженный на скаляр</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd><p>Выбрасывается, если вектор равен null</p>
+</dd>
+  </dl>
+
+
+
+  <a id="PPOISFirstFirst_Vector_op_Subtraction_" data-uid="PPOISFirstFirst.Vector.op_Subtraction*"></a>
+
+  <h3 id="PPOISFirstFirst_Vector_op_Subtraction_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_" data-uid="PPOISFirstFirst.Vector.op_Subtraction(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)">
+  operator -(Vector, Vector)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Вычитает один вектор из другого</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector operator -(Vector a, Vector b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="PPOISFirstFirst.Vector.html">Vector</a></dt>
+    <dd><p>Вектор, из которого вычитают</p>
+</dd>
+    <dt><code>b</code> <a class="xref" href="PPOISFirstFirst.Vector.html">Vector</a></dt>
+    <dd><p>Вектор, который вычитают</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PPOISFirstFirst.Vector.html">Vector</a></dt>
+    <dd><p>Новый вектор, являющийся разностью двух векторов</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd><p>Выбрасывается, если любой из векторов равен null</p>
+</dd>
+  </dl>
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

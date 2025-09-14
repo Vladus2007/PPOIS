@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PPOISFirstSecond</name>
+    </assembly>
+    <members>
+        <member name="T:EnglishRussianDictionary">
+            <summary>
+            Represents an English-Russian dictionary implemented as a binary search tree.
+            Provides functionality for inserting, finding, and deleting word translations,
+            as well as reading from and writing to a database.
+            </summary>
+        </member>
+        <member name="P:EnglishRussianDictionary.Root">
+            <summary>
+            Gets the root node of the binary search tree.
+            </summary>
+        </member>
+        <member name="M:EnglishRussianDictionary.#ctor(PPOISFirstSecond.IReadFromDatabase,PPOISFirstSecond.IWriteToDatabase)">
+            <summary>
+            Initializes a new instance of the EnglishRussianDictionary class with specified database readers and writers.
+            </summary>
+            <param name="read">The database reader implementation for loading dictionary data.</param>
+            <param name="write">The database writer implementation for saving dictionary data.</param>
+        </member>
+        <member name="M:EnglishRussianDictionary.Read">
+            <summary>
+            Reads all word pairs from the database and inserts them into the dictionary.
+            </summary>
+        </member>
+        <member name="M:EnglishRussianDictionary.Write(System.Collections.Generic.IEnumerable{PPOISFirstSecond.WordPair})">
+            <summary>
+            Writes a collection of word pairs to the database.
+            </summary>
+            <param name="wordPairs">The collection of word pairs to write to the database.</param>
+        </member>
+        <member name="M:EnglishRussianDictionary.Write(PPOISFirstSecond.WordPair)">
+            <summary>
+            Writes a single word pair to the database.
+            </summary>
+            <param name="wordPair">The word pair to write to the database.</param>
+        </member>
+        <member name="M:EnglishRussianDictionary.Insert(System.String,System.String)">
+            <summary>
+            Inserts or updates a word translation in the dictionary.
+            </summary>
+            <param name="value">The Russian translation of the word.</param>
+            <param name="key">The English word to insert or update.</param>
+            <returns>True if the operation was successful.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown when either value or key is null.</exception>
+        </member>
+        <member name="M:EnglishRussianDictionary.Find(System.String)">
+            <summary>
+            Finds the Russian translation for the specified English word.
+            </summary>
+            <param name="key">The English word to search for.</param>
+            <returns>The Russian translation if found; otherwise, null.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown when key is null.</exception>
+        </member>
+        <member name="P:EnglishRussianDictionary.Item(System.String)">
+            <summary>
+            Gets or sets the Russian translation for the specified English word using indexer syntax.
+            </summary>
+            <param name="key">The English word to access.</param>
+            <returns>The Russian translation if found during get operation; null otherwise.</returns>
+        </member>
+        <member name="M:EnglishRussianDictionary.Delete(System.String)">
+            <summary>
+            Deletes the specified English word and its translation from the dictionary.
+            </summary>
+            <param name="key">The English word to delete.</param>
+            <returns>True if the word was found and deleted; false otherwise.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown when key is null.</exception>
+        </member>
+        <member name="M:EnglishRussianDictionary.op_Subtraction(EnglishRussianDictionary,System.String)">
+            <summary>
+            Deletes the specified English word from the dictionary using the subtraction operator.
+            </summary>
+            <param name="dic">The dictionary from which to delete the word.</param>
+            <param name="key">The English word to delete.</param>
+            <returns>Always returns true.</returns>
+        </member>
+        <member name="M:EnglishRussianDictionary.Length">
+            <summary>
+            Gets the total number of word pairs in the dictionary.
+            </summary>
+            <returns>The number of word pairs in the dictionary.</returns>
+        </member>
+        <member name="M:EnglishRussianDictionary.Run(Node,System.Int32@)">
+            <summary>
+            Recursively traverses the binary tree and counts the number of nodes.
+            </summary>
+            <param name="node">The current node being processed.</param>
+            <param name="Length">Reference to the length counter.</param>
+            <returns>The total number of nodes in the subtree.</returns>
+        </member>
+        <member name="T:Node">
+            <summary>
+            Represents a node in the binary search tree used by EnglishRussianDictionary.
+            Each node contains an English word (Key) and its Russian translation (Value).
+            </summary>
+        </member>
+        <member name="P:Node.right">
+            <summary>
+            Gets or sets the right child node in the binary tree.
+            </summary>
+        </member>
+        <member name="P:Node.left">
+            <summary>
+            Gets or sets the left child node in the binary tree.
+            </summary>
+        </member>
+        <member name="P:Node.Key">
+            <summary>
+            Gets or sets the English word (key) stored in this node.
+            </summary>
+        </member>
+        <member name="P:Node.Value">
+            <summary>
+            Gets or sets the Russian translation (value) stored in this node.
+            </summary>
+        </member>
+        <member name="T:PPOISFirstSecond.ReadFromDatabase">
+            <summary>
+            Provides functionality for reading word pairs from a database using Entity Framework Core.
+            Implements the IReadFromDatabase interface for database read operations.
+            </summary>
+        </member>
+        <member name="M:PPOISFirstSecond.ReadFromDatabase.#ctor(AppDbContext)">
+            <summary>
+            Initializes a new instance of the ReadFromDatabase class with the specified database context.
+            </summary>
+            <param name="context">The Entity Framework database context used for data access operations.</param>
+        </member>
+        <member name="M:PPOISFirstSecond.ReadFromDatabase.Read">
+            <summary>
+            Reads all word pairs from the database.
+            </summary>
+            <returns>An enumerable collection of WordPair objects containing all word translations from the database.</returns>
+        </member>
+        <member name="T:PPOISFirstSecond.WriteToDatabase">
+            <summary>
+            Provides functionality for writing word pairs to a database using Entity Framework Core.
+            Implements the IWriteToDatabase interface for database write operations.
+            </summary>
+        </member>
+        <member name="M:PPOISFirstSecond.WriteToDatabase.#ctor(AppDbContext)">
+            <summary>
+            Initializes a new instance of the WriteToDatabase class with the specified database context.
+            </summary>
+            <param name="context">The Entity Framework database context used for data persistence operations.</param>
+        </member>
+        <member name="M:PPOISFirstSecond.WriteToDatabase.WriteDatabase(PPOISFirstSecond.WordPair)">
+            <summary>
+            Writes a single word pair to the database and saves changes immediately.
+            </summary>
+            <param name="pair">The WordPair object to be written to the database.</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PPOISFirstFirst</name>
+    </assembly>
+    <members>
+        <member name="T:PPOISFirstFirst.Vector">
+            <summary>
+            Представляет трехмерный вектор с координатами X, Y, Z и вычисляемой длиной
+            </summary>
+        </member>
+        <member name="P:PPOISFirstFirst.Vector.X">
+            <summary>
+            Координата X вектора
+            </summary>
+        </member>
+        <member name="P:PPOISFirstFirst.Vector.Y">
+            <summary>
+            Координата Y вектора
+            </summary>
+        </member>
+        <member name="P:PPOISFirstFirst.Vector.Z">
+            <summary>
+            Координата Z вектора
+            </summary>
+        </member>
+        <member name="P:PPOISFirstFirst.Vector.Length">
+            <summary>
+            Длина вектора
+            </summary>
+        </member>
+        <member name="M:PPOISFirstFirst.Vector.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр вектора по двум точкам в пространстве
+            </summary>
+            <param name="x1">X-координата первой точки</param>
+            <param name="x2">X-координата второй точки</param>
+            <param name="y1">Y-координата первой точки</param>
+            <param name="y2">Y-координата второй точки</param>
+            <param name="z1">Z-координата первой точки</param>
+            <param name="z2">Z-координата второй точки</param>
+        </member>
+        <member name="M:PPOISFirstFirst.Vector.#ctor(System.Double,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр вектора по координатам
+            </summary>
+            <param name="x">X-координата</param>
+            <param name="y">Y-координата</param>
+            <param name="z">Z-координата</param>
+        </member>
+        <member name="M:PPOISFirstFirst.Vector.#ctor(System.Double,System.Double,System.Double,PPOISFirstFirst.ILength)">
+            <summary>
+            Инициализирует новый экземпляр вектора с пользовательским калькулятором длины
+            </summary>
+            <param name="x">X-координата</param>
+            <param name="y">Y-координата</param>
+            <param name="z">Z-координата</param>
+            <param name="lengthCalculator">Калькулятор длины вектора</param>
+            <exception cref="T:System.ArgumentNullException">Выбрасывается, если lengthCalculator равен null</exception>
+        </member>
+        <member name="M:PPOISFirstFirst.Vector.op_Addition(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)">
+            <summary>
+            Складывает два вектора
+            </summary>
+            <param name="a">Первый вектор</param>
+            <param name="b">Второй вектор</param>
+            <returns>Новый вектор, являющийся суммой двух векторов</returns>
+            <exception cref="T:System.ArgumentNullException">Выбрасывается, если любой из векторов равен null</exception>
+        </member>
+        <member name="M:PPOISFirstFirst.Vector.op_Subtraction(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)">
+            <summary>
+            Вычитает один вектор из другого
+            </summary>
+            <param name="a">Вектор, из которого вычитают</param>
+            <param name="b">Вектор, который вычитают</param>
+            <returns>Новый вектор, являющийся разностью двух векторов</returns>
+            <exception cref="T:System.ArgumentNullException">Выбрасывается, если любой из векторов равен null</exception>
+        </member>
+        <member name="M:PPOISFirstFirst.Vector.op_Multiply(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)">
+            <summary>
+            Вычисляет векторное произведение двух векторов
+            </summary>
+            <param name="a">Первый вектор</param>
+            <param name="b">Второй вектор</param>
+            <returns>Новый вектор, являющийся векторным произведением</returns>
+            <exception cref="T:System.ArgumentNullException">Выбрасывается, если любой из векторов равен null</exception>
+        </member>
+        <member name="M:PPOISFirstFirst.Vector.op_Multiply(PPOISFirstFirst.Vector,System.Double)">
+            <summary>
+            Умножает вектор на скаляр
+            </summary>
+            <param name="vector">Вектор для умножения</param>
+            <param name="scalar">Скалярное значение</param>
+            <returns>Новый вектор, умноженный на скаляр</returns>
+            <exception cref="T:System.ArgumentNullException">Выбрасывается, если вектор равен null</exception>
+        </member>
+        <member name="M:PPOISFirstFirst.Vector.op_Multiply(System.Double,PPOISFirstFirst.Vector)">
+            <summary>
+            Умножает скаляр на вектор
+            </summary>
+            <param name="scalar">Скалярное значение</param>
+            <param name="vector">Вектор для умножения</param>
+            <returns>Новый вектор, умноженный на скаляр</returns>
+            <exception cref="T:System.ArgumentNullException">Выбрасывается, если вектор равен null</exception>
+        </member>
+        <member name="M:PPOISFirstFirst.Vector.op_Division(PPOISFirstFirst.Vector,System.Double)">
+            <summary>
+            Делит вектор на скаляр
+            </summary>
+            <param name="vector">Вектор для деления</param>
+            <param name="scalar">Скалярное значение</param>
+            <returns>Новый вектор, разделенный на скаляр</returns>
+            <exception cref="T:System.ArgumentNullException">Выбрасывается, если вектор равен null</exception>
+            <exception cref="T:System.DivideByZeroException">Выбрасывается, если скаляр равен нулю</exception>
+        </member>
+        <member name="M:PPOISFirstFirst.Vector.op_ExclusiveOr(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)">
+            <summary>
+            Вычисляет косинус угла между двумя векторами
+            </summary>
+            <param name="a">Первый вектор</param>
+            <param name="b">Второй вектор</param>
+            <returns>Косинус угла между векторами</returns>
+            <exception cref="T:System.ArgumentNullException">Выбрасывается, если любой из векторов равен null</exception>
+            <exception cref="T:System.InvalidOperationException">Выбрасывается, если длина любого из векторов равна нулю</exception>
+        </member>
+        <member name="M:PPOISFirstFirst.Vector.op_GreaterThan(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)">
+            <summary>
+            Проверяет, больше ли один вектор другого по двум координатам при равенстве третьей
+            </summary>
+            <param name="a">Первый вектор</param>
+            <param name="b">Второй вектор</param>
+            <returns>True если вектор a больше вектора b по двум координатам</returns>
+            <exception cref="T:System.ArgumentNullException">Выбрасывается, если любой из векторов равен null</exception>
+        </member>
+        <member name="M:PPOISFirstFirst.Vector.op_LessThan(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)">
+            <summary>
+            Проверяет, меньше ли один вектор другого по двум координатам при равенстве третьей
+            </summary>
+            <param name="a">Первый вектор</param>
+            <param name="b">Второй вектор</param>
+            <returns>True если вектор a меньше вектора b по двум координатам</returns>
+            <exception cref="T:System.ArgumentNullException">Выбрасывается, если любой из векторов равен null</exception>
+        </member>
+        <member name="M:PPOISFirstFirst.Vector.op_GreaterThanOrEqual(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)">
+            <summary>
+            Проверяет, больше или равен ли один вектор другого по двум координатам при равенстве третьей
+            </summary>
+            <param name="a">Первый вектор</param>
+            <param name="b">Второй вектор</param>
+            <returns>True если вектор a больше или равен вектору b по двум координатам</returns>
+            <exception cref="T:System.ArgumentNullException">Выбрасывается, если любой из векторов равен null</exception>
+        </member>
+        <member name="M:PPOISFirstFirst.Vector.op_LessThanOrEqual(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)">
+            <summary>
+            Проверяет, меньше или равен ли один вектор другого по двум координатам при равенстве третьей
+            </summary>
+            <param name="a">Первый вектор</param>
+            <param name="b">Второй вектор</param>
+            <returns>True если вектор a меньше или равен вектору b по двум координатам</returns>
+            <exception cref="T:System.ArgumentNullException">Выбрасывается, если любой из векторов равен null</exception>
+        </member>
+        <member name="M:PPOISFirstFirst.Vector.ToString">
+            <summary>
+            Возвращает строковое представление вектора
+            </summary>
+            <returns>Строка в формате "Vector(X: {X}, Y: {Y}, Z: {Z}, Length: {Length})"</returns>
+        </member>
+        <member name="M:PPOISFirstFirst.Vector.Equals(System.Object)">
+            <summary>
+            Определяет, равен ли указанный объект текущему вектору
+            </summary>
+            <param name="obj">Объект для сравнения</param>
+            <returns>True если объекты равны, иначе False</returns>
+        </member>
+        <member name="M:PPOISFirstFirst.Vector.GetHashCode">
+            <summary>
+            Возвращает хэш-код для текущего вектора
+            </summary>
+            <returns>Хэш-код, основанный на координатах X, Y, Z</returns>
+        </member>
+    </members>
+</doc>

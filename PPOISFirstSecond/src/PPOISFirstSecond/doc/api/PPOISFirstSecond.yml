@@ -1,0 +1,67 @@
+### YamlMime:ManagedReference
+items:
+- uid: PPOISFirstSecond
+  commentId: N:PPOISFirstSecond
+  id: PPOISFirstSecond
+  children:
+  - PPOISFirstSecond.IInsert
+  - PPOISFirstSecond.IReadFromDatabase
+  - PPOISFirstSecond.IWriteToDatabase
+  - PPOISFirstSecond.ReadFromDatabase
+  - PPOISFirstSecond.WordPair
+  - PPOISFirstSecond.WriteToDatabase
+  langs:
+  - csharp
+  - vb
+  name: PPOISFirstSecond
+  nameWithType: PPOISFirstSecond
+  fullName: PPOISFirstSecond
+  type: Namespace
+  assemblies:
+  - PPOISFirstSecond
+references:
+- uid: PPOISFirstSecond.IInsert
+  commentId: T:PPOISFirstSecond.IInsert
+  href: PPOISFirstSecond.IInsert.html
+  name: IInsert
+  nameWithType: IInsert
+  fullName: PPOISFirstSecond.IInsert
+- uid: PPOISFirstSecond.IReadFromDatabase
+  commentId: T:PPOISFirstSecond.IReadFromDatabase
+  parent: PPOISFirstSecond
+  href: PPOISFirstSecond.IReadFromDatabase.html
+  name: IReadFromDatabase
+  nameWithType: IReadFromDatabase
+  fullName: PPOISFirstSecond.IReadFromDatabase
+- uid: PPOISFirstSecond.IWriteToDatabase
+  commentId: T:PPOISFirstSecond.IWriteToDatabase
+  parent: PPOISFirstSecond
+  href: PPOISFirstSecond.IWriteToDatabase.html
+  name: IWriteToDatabase
+  nameWithType: IWriteToDatabase
+  fullName: PPOISFirstSecond.IWriteToDatabase
+- uid: PPOISFirstSecond.ReadFromDatabase
+  commentId: T:PPOISFirstSecond.ReadFromDatabase
+  href: PPOISFirstSecond.ReadFromDatabase.html
+  name: ReadFromDatabase
+  nameWithType: ReadFromDatabase
+  fullName: PPOISFirstSecond.ReadFromDatabase
+- uid: PPOISFirstSecond.WordPair
+  commentId: T:PPOISFirstSecond.WordPair
+  parent: PPOISFirstSecond
+  href: PPOISFirstSecond.WordPair.html
+  name: WordPair
+  nameWithType: WordPair
+  fullName: PPOISFirstSecond.WordPair
+- uid: PPOISFirstSecond.WriteToDatabase
+  commentId: T:PPOISFirstSecond.WriteToDatabase
+  href: PPOISFirstSecond.WriteToDatabase.html
+  name: WriteToDatabase
+  nameWithType: WriteToDatabase
+  fullName: PPOISFirstSecond.WriteToDatabase
+- uid: PPOISFirstSecond
+  commentId: N:PPOISFirstSecond
+  href: PPOISFirstSecond.html
+  name: PPOISFirstSecond
+  nameWithType: PPOISFirstSecond
+  fullName: PPOISFirstSecond

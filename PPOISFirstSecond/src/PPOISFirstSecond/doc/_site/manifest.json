@@ -1,0 +1,186 @@
+{
+  "source_base_path": "C:/Users/User/source/repos/PPOISFirstSecond/src/PPOISFirstSecond/doc",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PPOISFirstSecond.IInsert.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PPOISFirstSecond.IInsert.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PPOISFirstSecond.IInsert",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PPOISFirstSecond.IReadFromDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PPOISFirstSecond.IReadFromDatabase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PPOISFirstSecond.IReadFromDatabase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PPOISFirstSecond.IWriteToDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PPOISFirstSecond.IWriteToDatabase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PPOISFirstSecond.IWriteToDatabase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PPOISFirstSecond.ReadFromDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PPOISFirstSecond.ReadFromDatabase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PPOISFirstSecond.ReadFromDatabase",
+      "Summary": "<p sourcefile=\"api/PPOISFirstSecond.ReadFromDatabase.yml\" sourcestartlinenumber=\"1\">Provides functionality for reading word pairs from a database using Entity Framework Core.\nImplements the IReadFromDatabase interface for database read operations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PPOISFirstSecond.WordPair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PPOISFirstSecond.WordPair.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PPOISFirstSecond.WordPair",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PPOISFirstSecond.WriteToDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PPOISFirstSecond.WriteToDatabase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PPOISFirstSecond.WriteToDatabase",
+      "Summary": "<p sourcefile=\"api/PPOISFirstSecond.WriteToDatabase.yml\" sourcestartlinenumber=\"1\">Provides functionality for writing word pairs to a database using Entity Framework Core.\nImplements the IWriteToDatabase interface for database write operations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PPOISFirstSecond.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PPOISFirstSecond.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PPOISFirstSecond",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

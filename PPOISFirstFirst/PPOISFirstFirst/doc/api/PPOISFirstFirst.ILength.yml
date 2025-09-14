@@ -1,0 +1,90 @@
+### YamlMime:ManagedReference
+items:
+- uid: PPOISFirstFirst.ILength
+  commentId: T:PPOISFirstFirst.ILength
+  id: ILength
+  parent: PPOISFirstFirst
+  children:
+  - PPOISFirstFirst.ILength.CalculateLength(System.Double,System.Double,System.Double)
+  langs:
+  - csharp
+  - vb
+  name: ILength
+  nameWithType: ILength
+  fullName: PPOISFirstFirst.ILength
+  type: Interface
+  source:
+    id: ILength
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\ILength.cs
+    startLine: 8
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  syntax:
+    content: public interface ILength
+    content.vb: Public Interface ILength
+- uid: PPOISFirstFirst.ILength.CalculateLength(System.Double,System.Double,System.Double)
+  commentId: M:PPOISFirstFirst.ILength.CalculateLength(System.Double,System.Double,System.Double)
+  id: CalculateLength(System.Double,System.Double,System.Double)
+  parent: PPOISFirstFirst.ILength
+  langs:
+  - csharp
+  - vb
+  name: CalculateLength(double, double, double)
+  nameWithType: ILength.CalculateLength(double, double, double)
+  fullName: PPOISFirstFirst.ILength.CalculateLength(double, double, double)
+  type: Method
+  source:
+    id: CalculateLength
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\ILength.cs
+    startLine: 10
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  syntax:
+    content: double CalculateLength(double x, double y, double z)
+    parameters:
+    - id: x
+      type: System.Double
+    - id: y
+      type: System.Double
+    - id: z
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Function CalculateLength(x As Double, y As Double, z As Double) As Double
+  overload: PPOISFirstFirst.ILength.CalculateLength*
+  nameWithType.vb: ILength.CalculateLength(Double, Double, Double)
+  fullName.vb: PPOISFirstFirst.ILength.CalculateLength(Double, Double, Double)
+  name.vb: CalculateLength(Double, Double, Double)
+references:
+- uid: PPOISFirstFirst
+  commentId: N:PPOISFirstFirst
+  href: PPOISFirstFirst.html
+  name: PPOISFirstFirst
+  nameWithType: PPOISFirstFirst
+  fullName: PPOISFirstFirst
+- uid: PPOISFirstFirst.ILength.CalculateLength*
+  commentId: Overload:PPOISFirstFirst.ILength.CalculateLength
+  href: PPOISFirstFirst.ILength.html#PPOISFirstFirst_ILength_CalculateLength_System_Double_System_Double_System_Double_
+  name: CalculateLength
+  nameWithType: ILength.CalculateLength
+  fullName: PPOISFirstFirst.ILength.CalculateLength
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

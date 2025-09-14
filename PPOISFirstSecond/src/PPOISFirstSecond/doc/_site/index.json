@@ -1,0 +1,52 @@
+{
+  "api/PPOISFirstSecond.IInsert.html": {
+    "href": "api/PPOISFirstSecond.IInsert.html",
+    "title": "Interface IInsert | mysite",
+    "summary": "Interface IInsert Namespace PPOISFirstSecond Assembly PPOISFirstSecond.dll public interface IInsert Methods Insert(string?, string?) bool Insert(string? Value, string? Key) Parameters Value string Key string Returns bool"
+  },
+  "api/PPOISFirstSecond.IReadFromDatabase.html": {
+    "href": "api/PPOISFirstSecond.IReadFromDatabase.html",
+    "title": "Interface IReadFromDatabase | mysite",
+    "summary": "Interface IReadFromDatabase Namespace PPOISFirstSecond Assembly PPOISFirstSecond.dll public interface IReadFromDatabase Methods Read() IEnumerable<WordPair> Read() Returns IEnumerable<WordPair>"
+  },
+  "api/PPOISFirstSecond.IWriteToDatabase.html": {
+    "href": "api/PPOISFirstSecond.IWriteToDatabase.html",
+    "title": "Interface IWriteToDatabase | mysite",
+    "summary": "Interface IWriteToDatabase Namespace PPOISFirstSecond Assembly PPOISFirstSecond.dll public interface IWriteToDatabase Methods WriteDatabase(WordPair) void WriteDatabase(WordPair pair) Parameters pair WordPair"
+  },
+  "api/PPOISFirstSecond.ReadFromDatabase.html": {
+    "href": "api/PPOISFirstSecond.ReadFromDatabase.html",
+    "title": "Class ReadFromDatabase | mysite",
+    "summary": "Class ReadFromDatabase Namespace PPOISFirstSecond Assembly PPOISFirstSecond.dll Provides functionality for reading word pairs from a database using Entity Framework Core. Implements the IReadFromDatabase interface for database read operations. public class ReadFromDatabase : IReadFromDatabase Inheritance object ReadFromDatabase Implements IReadFromDatabase Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors ReadFromDatabase(AppDbContext) Initializes a new instance of the ReadFromDatabase class with the specified database context. public ReadFromDatabase(AppDbContext context) Parameters context AppDbContext The Entity Framework database context used for data access operations. Methods Read() Reads all word pairs from the database. public IEnumerable<WordPair> Read() Returns IEnumerable<WordPair> An enumerable collection of WordPair objects containing all word translations from the database."
+  },
+  "api/PPOISFirstSecond.WordPair.html": {
+    "href": "api/PPOISFirstSecond.WordPair.html",
+    "title": "Class WordPair | mysite",
+    "summary": "Class WordPair Namespace PPOISFirstSecond Assembly PPOISFirstSecond.dll public class WordPair Inheritance object WordPair Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Id [Key] public int Id { get; set; } Property Value int Key public string Key { get; set; } Property Value string Values public string Values { get; set; } Property Value string"
+  },
+  "api/PPOISFirstSecond.WriteToDatabase.html": {
+    "href": "api/PPOISFirstSecond.WriteToDatabase.html",
+    "title": "Class WriteToDatabase | mysite",
+    "summary": "Class WriteToDatabase Namespace PPOISFirstSecond Assembly PPOISFirstSecond.dll Provides functionality for writing word pairs to a database using Entity Framework Core. Implements the IWriteToDatabase interface for database write operations. public class WriteToDatabase : IWriteToDatabase Inheritance object WriteToDatabase Implements IWriteToDatabase Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors WriteToDatabase(AppDbContext) Initializes a new instance of the WriteToDatabase class with the specified database context. public WriteToDatabase(AppDbContext context) Parameters context AppDbContext The Entity Framework database context used for data persistence operations. Methods WriteDatabase(WordPair) Writes a single word pair to the database and saves changes immediately. public void WriteDatabase(WordPair pair) Parameters pair WordPair The WordPair object to be written to the database."
+  },
+  "api/PPOISFirstSecond.html": {
+    "href": "api/PPOISFirstSecond.html",
+    "title": "Namespace PPOISFirstSecond | mysite",
+    "summary": "Namespace PPOISFirstSecond Classes ReadFromDatabase Provides functionality for reading word pairs from a database using Entity Framework Core. Implements the IReadFromDatabase interface for database read operations. WordPair WriteToDatabase Provides functionality for writing word pairs to a database using Entity Framework Core. Implements the IWriteToDatabase interface for database write operations. Interfaces IInsert IReadFromDatabase IWriteToDatabase"
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | mysite",
+    "summary": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | mysite",
+    "summary": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | mysite",
+    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}

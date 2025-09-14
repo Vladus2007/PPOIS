@@ -1,0 +1,98 @@
+2025-09-10T18:11:00.4291747+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.8.2+3f3895006fbd911d9b09cf9cafebc5f6cb7dd10d
+2025-09-10T18:11:00.4899815+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-09-10T18:11:00.4962517+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-09-10T18:11:00.4962704+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 18:11:00.060
+2025-09-10T18:11:00.4965701+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 4780
+2025-09-10T18:11:00.4972290+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 8.0.18
+2025-09-10T18:11:00.4972477+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.18\System.Private.CoreLib.dll
+2025-09-10T18:11:00.4977580+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-09-10T18:11:00.4981534+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Users\Елизавета\source\repos\PPOISFirstFirst\Test\UnitTests.Tests\bin\Debug\net8.0\UnitTests.Tests.dll
+2025-09-10T18:11:00.4988709+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Users\Елизавета\source\repos\PPOISFirstFirst\Test\UnitTests.Tests\bin\Debug\net8.0\Log --results-directory C:\Users\Елизавета\source\repos\PPOISFirstFirst\TestResults --client-port 49476'
+2025-09-10T18:11:00.5053073+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-09-10T18:11:00.6297335+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-09-10T18:11:00.6994478+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2025-09-10T18:11:01.9886400+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: '30ea7c6e-dd24-4152-a360-1387158cd41d' Version: '3.0.1' DisplayName: 'xUnit.net v3 Microsoft.Testing.Platform test framework' Description: 'xUnit.net v3 Microsoft.Testing.Platform test framework'
+2025-09-10T18:11:02.0179573+00:00 xUnit.net INFORMATION xUnit.net v3 In-Process Runner v3.0.1+9214bef154 (64-bit .NET 8.0.18)
+2025-09-10T18:11:02.2536096+00:00 xUnit.net INFORMATION   Discovering: UnitTests.Tests
+2025-09-10T18:11:02.4395380+00:00 xUnit.net INFORMATION   Discovered:  UnitTests.Tests
+2025-09-10T18:11:02.6478997+00:00 xUnit.net INFORMATION   Starting:    UnitTests.Tests
+2025-09-10T18:11:04.6912579+00:00 xUnit.net ERROR     VectorTests.VectorTests.Division_ByZero_ThrowsException [FAIL]
+2025-09-10T18:11:04.6921588+00:00 xUnit.net INFORMATION       System.NullReferenceException : Object reference not set to an instance of an object.
+2025-09-10T18:11:04.6929221+00:00 xUnit.net INFORMATION       Stack Trace:
+2025-09-10T18:11:04.6950568+00:00 xUnit.net INFORMATION         C:\Users\Елизавета\source\repos\PPOISFirstFirst\PPOISFirstFirst\Vector.cs(36,0): at PPOISFirstFirst.Vector..ctor(Double x, Double y, Double z)
+2025-09-10T18:11:04.6950987+00:00 xUnit.net INFORMATION         C:\Users\Елизавета\source\repos\PPOISFirstFirst\Test\UnitTests.Tests\UnitTest1.cs(100,0): at VectorTests.VectorTests.Division_ByZero_ThrowsException()
+2025-09-10T18:11:04.6951180+00:00 xUnit.net INFORMATION            at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+2025-09-10T18:11:04.6951353+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2025-09-10T18:11:04.7152283+00:00 xUnit.net ERROR     VectorTests.VectorTests.GreaterThan_XComponentGreater_ReturnsTrue [FAIL]
+2025-09-10T18:11:04.7152538+00:00 xUnit.net INFORMATION       System.NullReferenceException : Object reference not set to an instance of an object.
+2025-09-10T18:11:04.7152824+00:00 xUnit.net INFORMATION       Stack Trace:
+2025-09-10T18:11:04.7153232+00:00 xUnit.net INFORMATION         C:\Users\Елизавета\source\repos\PPOISFirstFirst\PPOISFirstFirst\Vector.cs(28,0): at PPOISFirstFirst.Vector..ctor(Double x1, Double x2, Double y1, Double y2, Double z1, Double z2)
+2025-09-10T18:11:04.7153596+00:00 xUnit.net INFORMATION         C:\Users\Елизавета\source\repos\PPOISFirstFirst\Test\UnitTests.Tests\UnitTest1.cs(119,0): at VectorTests.VectorTests.GreaterThan_XComponentGreater_ReturnsTrue()
+2025-09-10T18:11:04.7153768+00:00 xUnit.net INFORMATION            at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+2025-09-10T18:11:04.7153903+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2025-09-10T18:11:04.7159383+00:00 xUnit.net ERROR     VectorTests.VectorTests.LessThan_XComponentLess_ReturnsTrue [FAIL]
+2025-09-10T18:11:04.7159521+00:00 xUnit.net INFORMATION       System.NullReferenceException : Object reference not set to an instance of an object.
+2025-09-10T18:11:04.7159656+00:00 xUnit.net INFORMATION       Stack Trace:
+2025-09-10T18:11:04.7160791+00:00 xUnit.net INFORMATION         C:\Users\Елизавета\source\repos\PPOISFirstFirst\PPOISFirstFirst\Vector.cs(28,0): at PPOISFirstFirst.Vector..ctor(Double x1, Double x2, Double y1, Double y2, Double z1, Double z2)
+2025-09-10T18:11:04.7161373+00:00 xUnit.net INFORMATION         C:\Users\Елизавета\source\repos\PPOISFirstFirst\Test\UnitTests.Tests\UnitTest1.cs(128,0): at VectorTests.VectorTests.LessThan_XComponentLess_ReturnsTrue()
+2025-09-10T18:11:04.7161620+00:00 xUnit.net INFORMATION            at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+2025-09-10T18:11:04.7161781+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2025-09-10T18:11:04.7164922+00:00 xUnit.net ERROR     VectorTests.VectorTests.DotProduct_PerpendicularVectors_ReturnsZero [FAIL]
+2025-09-10T18:11:04.7165074+00:00 xUnit.net INFORMATION       System.NullReferenceException : Object reference not set to an instance of an object.
+2025-09-10T18:11:04.7165211+00:00 xUnit.net INFORMATION       Stack Trace:
+2025-09-10T18:11:04.7165505+00:00 xUnit.net INFORMATION         C:\Users\Елизавета\source\repos\PPOISFirstFirst\PPOISFirstFirst\Vector.cs(28,0): at PPOISFirstFirst.Vector..ctor(Double x1, Double x2, Double y1, Double y2, Double z1, Double z2)
+2025-09-10T18:11:04.7170559+00:00 xUnit.net INFORMATION         C:\Users\Елизавета\source\repos\PPOISFirstFirst\Test\UnitTests.Tests\UnitTest1.cs(109,0): at VectorTests.VectorTests.DotProduct_PerpendicularVectors_ReturnsZero()
+2025-09-10T18:11:04.7172282+00:00 xUnit.net INFORMATION            at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+2025-09-10T18:11:04.7172501+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2025-09-10T18:11:04.7253318+00:00 xUnit.net ERROR     VectorTests.VectorTests.Subtraction_TwoVectors_ReturnsCorrectDifference [FAIL]
+2025-09-10T18:11:04.7253737+00:00 xUnit.net INFORMATION       System.NullReferenceException : Object reference not set to an instance of an object.
+2025-09-10T18:11:04.7255308+00:00 xUnit.net INFORMATION       Stack Trace:
+2025-09-10T18:11:04.7255742+00:00 xUnit.net INFORMATION         C:\Users\Елизавета\source\repos\PPOISFirstFirst\PPOISFirstFirst\Vector.cs(28,0): at PPOISFirstFirst.Vector..ctor(Double x1, Double x2, Double y1, Double y2, Double z1, Double z2)
+2025-09-10T18:11:04.7255995+00:00 xUnit.net INFORMATION         C:\Users\Елизавета\source\repos\PPOISFirstFirst\Test\UnitTests.Tests\UnitTest1.cs(52,0): at VectorTests.VectorTests.Subtraction_TwoVectors_ReturnsCorrectDifference()
+2025-09-10T18:11:04.7256097+00:00 xUnit.net INFORMATION            at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+2025-09-10T18:11:04.7256192+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2025-09-10T18:11:04.7262465+00:00 xUnit.net ERROR     VectorTests.VectorTests.Constructor_WithThreeCoordinates_SetsPropertiesCorrectly [FAIL]
+2025-09-10T18:11:04.7262607+00:00 xUnit.net INFORMATION       System.NullReferenceException : Object reference not set to an instance of an object.
+2025-09-10T18:11:04.7262737+00:00 xUnit.net INFORMATION       Stack Trace:
+2025-09-10T18:11:04.7263008+00:00 xUnit.net INFORMATION         C:\Users\Елизавета\source\repos\PPOISFirstFirst\PPOISFirstFirst\Vector.cs(36,0): at PPOISFirstFirst.Vector..ctor(Double x, Double y, Double z)
+2025-09-10T18:11:04.7263385+00:00 xUnit.net INFORMATION         C:\Users\Елизавета\source\repos\PPOISFirstFirst\Test\UnitTests.Tests\UnitTest1.cs(17,0): at VectorTests.VectorTests.Constructor_WithThreeCoordinates_SetsPropertiesCorrectly()
+2025-09-10T18:11:04.7264616+00:00 xUnit.net INFORMATION            at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+2025-09-10T18:11:04.7264947+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2025-09-10T18:11:04.7267613+00:00 xUnit.net ERROR     VectorTests.VectorTests.ScalarMultiplication_ValidScalar_ReturnsScaledVector [FAIL]
+2025-09-10T18:11:04.7267711+00:00 xUnit.net INFORMATION       System.NullReferenceException : Object reference not set to an instance of an object.
+2025-09-10T18:11:04.7267812+00:00 xUnit.net INFORMATION       Stack Trace:
+2025-09-10T18:11:04.7268084+00:00 xUnit.net INFORMATION         C:\Users\Елизавета\source\repos\PPOISFirstFirst\PPOISFirstFirst\Vector.cs(28,0): at PPOISFirstFirst.Vector..ctor(Double x1, Double x2, Double y1, Double y2, Double z1, Double z2)
+2025-09-10T18:11:04.7268277+00:00 xUnit.net INFORMATION         C:\Users\Елизавета\source\repos\PPOISFirstFirst\Test\UnitTests.Tests\UnitTest1.cs(76,0): at VectorTests.VectorTests.ScalarMultiplication_ValidScalar_ReturnsScaledVector()
+2025-09-10T18:11:04.7268610+00:00 xUnit.net INFORMATION            at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+2025-09-10T18:11:04.7268797+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2025-09-10T18:11:04.7272497+00:00 xUnit.net ERROR     VectorTests.VectorTests.Constructor_WithSixCoordinates_CalculatesDifferencesCorrectly [FAIL]
+2025-09-10T18:11:04.7272611+00:00 xUnit.net INFORMATION       System.NullReferenceException : Object reference not set to an instance of an object.
+2025-09-10T18:11:04.7272714+00:00 xUnit.net INFORMATION       Stack Trace:
+2025-09-10T18:11:04.7273039+00:00 xUnit.net INFORMATION         C:\Users\Елизавета\source\repos\PPOISFirstFirst\PPOISFirstFirst\Vector.cs(28,0): at PPOISFirstFirst.Vector..ctor(Double x1, Double x2, Double y1, Double y2, Double z1, Double z2)
+2025-09-10T18:11:04.7275433+00:00 xUnit.net INFORMATION         C:\Users\Елизавета\source\repos\PPOISFirstFirst\Test\UnitTests.Tests\UnitTest1.cs(29,0): at VectorTests.VectorTests.Constructor_WithSixCoordinates_CalculatesDifferencesCorrectly()
+2025-09-10T18:11:04.7277878+00:00 xUnit.net INFORMATION            at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+2025-09-10T18:11:04.7278004+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2025-09-10T18:11:04.7282648+00:00 xUnit.net ERROR     VectorTests.VectorTests.CrossProduct_PerpendicularVectors_ReturnsCorrectVector [FAIL]
+2025-09-10T18:11:04.7285426+00:00 xUnit.net INFORMATION       System.NullReferenceException : Object reference not set to an instance of an object.
+2025-09-10T18:11:04.7285578+00:00 xUnit.net INFORMATION       Stack Trace:
+2025-09-10T18:11:04.7288098+00:00 xUnit.net INFORMATION         C:\Users\Елизавета\source\repos\PPOISFirstFirst\PPOISFirstFirst\Vector.cs(28,0): at PPOISFirstFirst.Vector..ctor(Double x1, Double x2, Double y1, Double y2, Double z1, Double z2)
+2025-09-10T18:11:04.7288483+00:00 xUnit.net INFORMATION         C:\Users\Елизавета\source\repos\PPOISFirstFirst\Test\UnitTests.Tests\UnitTest1.cs(64,0): at VectorTests.VectorTests.CrossProduct_PerpendicularVectors_ReturnsCorrectVector()
+2025-09-10T18:11:04.7288690+00:00 xUnit.net INFORMATION            at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+2025-09-10T18:11:04.7288851+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2025-09-10T18:11:04.7291722+00:00 xUnit.net ERROR     VectorTests.VectorTests.Addition_TwoVectors_ReturnsCorrectSum [FAIL]
+2025-09-10T18:11:04.7291815+00:00 xUnit.net INFORMATION       System.NullReferenceException : Object reference not set to an instance of an object.
+2025-09-10T18:11:04.7291925+00:00 xUnit.net INFORMATION       Stack Trace:
+2025-09-10T18:11:04.7293246+00:00 xUnit.net INFORMATION         C:\Users\Елизавета\source\repos\PPOISFirstFirst\PPOISFirstFirst\Vector.cs(28,0): at PPOISFirstFirst.Vector..ctor(Double x1, Double x2, Double y1, Double y2, Double z1, Double z2)
+2025-09-10T18:11:04.7293579+00:00 xUnit.net INFORMATION         C:\Users\Елизавета\source\repos\PPOISFirstFirst\Test\UnitTests.Tests\UnitTest1.cs(40,0): at VectorTests.VectorTests.Addition_TwoVectors_ReturnsCorrectSum()
+2025-09-10T18:11:04.7293821+00:00 xUnit.net INFORMATION            at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+2025-09-10T18:11:04.7293987+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2025-09-10T18:11:04.7295756+00:00 xUnit.net ERROR     VectorTests.VectorTests.Division_ValidScalar_ReturnsCorrectVector [FAIL]
+2025-09-10T18:11:04.7295845+00:00 xUnit.net INFORMATION       System.NullReferenceException : Object reference not set to an instance of an object.
+2025-09-10T18:11:04.7295917+00:00 xUnit.net INFORMATION       Stack Trace:
+2025-09-10T18:11:04.7296136+00:00 xUnit.net INFORMATION         C:\Users\Елизавета\source\repos\PPOISFirstFirst\PPOISFirstFirst\Vector.cs(28,0): at PPOISFirstFirst.Vector..ctor(Double x1, Double x2, Double y1, Double y2, Double z1, Double z2)
+2025-09-10T18:11:04.7296407+00:00 xUnit.net INFORMATION         C:\Users\Елизавета\source\repos\PPOISFirstFirst\Test\UnitTests.Tests\UnitTest1.cs(88,0): at VectorTests.VectorTests.Division_ValidScalar_ReturnsCorrectVector()
+2025-09-10T18:11:04.7296581+00:00 xUnit.net INFORMATION            at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+2025-09-10T18:11:04.7296722+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2025-09-10T18:11:04.7416836+00:00 xUnit.net INFORMATION   Finished:    UnitTests.Tests
+2025-09-10T18:11:04.7860609+00:00 xUnit.net INFORMATION === TEST EXECUTION SUMMARY ===
+2025-09-10T18:11:04.8159602+00:00 xUnit.net INFORMATION    UnitTests.Tests  Total: 11, Errors: 0, Failed: 11, Skipped: 0, Not Run: 0, Time: 2,081s, ID: '44e53e755f5a49c560044e842f81deed4a3757912a94666d71647cd20f1fd45d'

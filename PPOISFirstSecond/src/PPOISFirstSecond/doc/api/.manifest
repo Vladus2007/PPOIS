@@ -1,0 +1,19 @@
+{
+  "PPOISFirstSecond": "PPOISFirstSecond.yml",
+  "PPOISFirstSecond.IInsert": "PPOISFirstSecond.IInsert.yml",
+  "PPOISFirstSecond.IInsert.Insert(System.String,System.String)": "PPOISFirstSecond.IInsert.yml",
+  "PPOISFirstSecond.IReadFromDatabase": "PPOISFirstSecond.IReadFromDatabase.yml",
+  "PPOISFirstSecond.IReadFromDatabase.Read": "PPOISFirstSecond.IReadFromDatabase.yml",
+  "PPOISFirstSecond.IWriteToDatabase": "PPOISFirstSecond.IWriteToDatabase.yml",
+  "PPOISFirstSecond.IWriteToDatabase.WriteDatabase(PPOISFirstSecond.WordPair)": "PPOISFirstSecond.IWriteToDatabase.yml",
+  "PPOISFirstSecond.ReadFromDatabase": "PPOISFirstSecond.ReadFromDatabase.yml",
+  "PPOISFirstSecond.ReadFromDatabase.#ctor(AppDbContext)": "PPOISFirstSecond.ReadFromDatabase.yml",
+  "PPOISFirstSecond.ReadFromDatabase.Read": "PPOISFirstSecond.ReadFromDatabase.yml",
+  "PPOISFirstSecond.WordPair": "PPOISFirstSecond.WordPair.yml",
+  "PPOISFirstSecond.WordPair.Id": "PPOISFirstSecond.WordPair.yml",
+  "PPOISFirstSecond.WordPair.Key": "PPOISFirstSecond.WordPair.yml",
+  "PPOISFirstSecond.WordPair.Values": "PPOISFirstSecond.WordPair.yml",
+  "PPOISFirstSecond.WriteToDatabase": "PPOISFirstSecond.WriteToDatabase.yml",
+  "PPOISFirstSecond.WriteToDatabase.#ctor(AppDbContext)": "PPOISFirstSecond.WriteToDatabase.yml",
+  "PPOISFirstSecond.WriteToDatabase.WriteDatabase(PPOISFirstSecond.WordPair)": "PPOISFirstSecond.WriteToDatabase.yml"
+}

@@ -1,0 +1,379 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: PPOISFirstFirst
+  name: PPOISFirstFirst
+  href: api/PPOISFirstFirst.html
+  commentId: N:PPOISFirstFirst
+  fullName: PPOISFirstFirst
+  nameWithType: PPOISFirstFirst
+- uid: PPOISFirstFirst.DefaultLengthCalculator
+  name: DefaultLengthCalculator
+  href: api/PPOISFirstFirst.DefaultLengthCalculator.html
+  commentId: T:PPOISFirstFirst.DefaultLengthCalculator
+  fullName: PPOISFirstFirst.DefaultLengthCalculator
+  nameWithType: DefaultLengthCalculator
+- uid: PPOISFirstFirst.DefaultLengthCalculator.CalculateLength(System.Double,System.Double,System.Double)
+  name: CalculateLength(double, double, double)
+  href: api/PPOISFirstFirst.DefaultLengthCalculator.html#PPOISFirstFirst_DefaultLengthCalculator_CalculateLength_System_Double_System_Double_System_Double_
+  commentId: M:PPOISFirstFirst.DefaultLengthCalculator.CalculateLength(System.Double,System.Double,System.Double)
+  name.vb: CalculateLength(Double, Double, Double)
+  fullName: PPOISFirstFirst.DefaultLengthCalculator.CalculateLength(double, double, double)
+  fullName.vb: PPOISFirstFirst.DefaultLengthCalculator.CalculateLength(Double, Double, Double)
+  nameWithType: DefaultLengthCalculator.CalculateLength(double, double, double)
+  nameWithType.vb: DefaultLengthCalculator.CalculateLength(Double, Double, Double)
+- uid: PPOISFirstFirst.DefaultLengthCalculator.CalculateLength*
+  name: CalculateLength
+  href: api/PPOISFirstFirst.DefaultLengthCalculator.html#PPOISFirstFirst_DefaultLengthCalculator_CalculateLength_
+  commentId: Overload:PPOISFirstFirst.DefaultLengthCalculator.CalculateLength
+  isSpec: "True"
+  fullName: PPOISFirstFirst.DefaultLengthCalculator.CalculateLength
+  nameWithType: DefaultLengthCalculator.CalculateLength
+- uid: PPOISFirstFirst.ILength
+  name: ILength
+  href: api/PPOISFirstFirst.ILength.html
+  commentId: T:PPOISFirstFirst.ILength
+  fullName: PPOISFirstFirst.ILength
+  nameWithType: ILength
+- uid: PPOISFirstFirst.ILength.CalculateLength(System.Double,System.Double,System.Double)
+  name: CalculateLength(double, double, double)
+  href: api/PPOISFirstFirst.ILength.html#PPOISFirstFirst_ILength_CalculateLength_System_Double_System_Double_System_Double_
+  commentId: M:PPOISFirstFirst.ILength.CalculateLength(System.Double,System.Double,System.Double)
+  name.vb: CalculateLength(Double, Double, Double)
+  fullName: PPOISFirstFirst.ILength.CalculateLength(double, double, double)
+  fullName.vb: PPOISFirstFirst.ILength.CalculateLength(Double, Double, Double)
+  nameWithType: ILength.CalculateLength(double, double, double)
+  nameWithType.vb: ILength.CalculateLength(Double, Double, Double)
+- uid: PPOISFirstFirst.ILength.CalculateLength*
+  name: CalculateLength
+  href: api/PPOISFirstFirst.ILength.html#PPOISFirstFirst_ILength_CalculateLength_
+  commentId: Overload:PPOISFirstFirst.ILength.CalculateLength
+  isSpec: "True"
+  fullName: PPOISFirstFirst.ILength.CalculateLength
+  nameWithType: ILength.CalculateLength
+- uid: PPOISFirstFirst.Vector
+  name: Vector
+  href: api/PPOISFirstFirst.Vector.html
+  commentId: T:PPOISFirstFirst.Vector
+  fullName: PPOISFirstFirst.Vector
+  nameWithType: Vector
+- uid: PPOISFirstFirst.Vector.#ctor(System.Double,System.Double,System.Double)
+  name: Vector(double, double, double)
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector__ctor_System_Double_System_Double_System_Double_
+  commentId: M:PPOISFirstFirst.Vector.#ctor(System.Double,System.Double,System.Double)
+  name.vb: New(Double, Double, Double)
+  fullName: PPOISFirstFirst.Vector.Vector(double, double, double)
+  fullName.vb: PPOISFirstFirst.Vector.New(Double, Double, Double)
+  nameWithType: Vector.Vector(double, double, double)
+  nameWithType.vb: Vector.New(Double, Double, Double)
+- uid: PPOISFirstFirst.Vector.#ctor(System.Double,System.Double,System.Double,PPOISFirstFirst.ILength)
+  name: Vector(double, double, double, ILength)
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector__ctor_System_Double_System_Double_System_Double_PPOISFirstFirst_ILength_
+  commentId: M:PPOISFirstFirst.Vector.#ctor(System.Double,System.Double,System.Double,PPOISFirstFirst.ILength)
+  name.vb: New(Double, Double, Double, ILength)
+  fullName: PPOISFirstFirst.Vector.Vector(double, double, double, PPOISFirstFirst.ILength)
+  fullName.vb: PPOISFirstFirst.Vector.New(Double, Double, Double, PPOISFirstFirst.ILength)
+  nameWithType: Vector.Vector(double, double, double, ILength)
+  nameWithType.vb: Vector.New(Double, Double, Double, ILength)
+- uid: PPOISFirstFirst.Vector.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  name: Vector(double, double, double, double, double, double)
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector__ctor_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_
+  commentId: M:PPOISFirstFirst.Vector.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  name.vb: New(Double, Double, Double, Double, Double, Double)
+  fullName: PPOISFirstFirst.Vector.Vector(double, double, double, double, double, double)
+  fullName.vb: PPOISFirstFirst.Vector.New(Double, Double, Double, Double, Double, Double)
+  nameWithType: Vector.Vector(double, double, double, double, double, double)
+  nameWithType.vb: Vector.New(Double, Double, Double, Double, Double, Double)
+- uid: PPOISFirstFirst.Vector.#ctor*
+  name: Vector
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector__ctor_
+  commentId: Overload:PPOISFirstFirst.Vector.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: PPOISFirstFirst.Vector.Vector
+  fullName.vb: PPOISFirstFirst.Vector.New
+  nameWithType: Vector.Vector
+  nameWithType.vb: Vector.New
+- uid: PPOISFirstFirst.Vector.Equals(System.Object)
+  name: Equals(object)
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_Equals_System_Object_
+  commentId: M:PPOISFirstFirst.Vector.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: PPOISFirstFirst.Vector.Equals(object)
+  fullName.vb: PPOISFirstFirst.Vector.Equals(Object)
+  nameWithType: Vector.Equals(object)
+  nameWithType.vb: Vector.Equals(Object)
+- uid: PPOISFirstFirst.Vector.Equals*
+  name: Equals
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_Equals_
+  commentId: Overload:PPOISFirstFirst.Vector.Equals
+  isSpec: "True"
+  fullName: PPOISFirstFirst.Vector.Equals
+  nameWithType: Vector.Equals
+- uid: PPOISFirstFirst.Vector.GetHashCode
+  name: GetHashCode()
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_GetHashCode
+  commentId: M:PPOISFirstFirst.Vector.GetHashCode
+  fullName: PPOISFirstFirst.Vector.GetHashCode()
+  nameWithType: Vector.GetHashCode()
+- uid: PPOISFirstFirst.Vector.GetHashCode*
+  name: GetHashCode
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_GetHashCode_
+  commentId: Overload:PPOISFirstFirst.Vector.GetHashCode
+  isSpec: "True"
+  fullName: PPOISFirstFirst.Vector.GetHashCode
+  nameWithType: Vector.GetHashCode
+- uid: PPOISFirstFirst.Vector.Length
+  name: Length
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_Length
+  commentId: P:PPOISFirstFirst.Vector.Length
+  fullName: PPOISFirstFirst.Vector.Length
+  nameWithType: Vector.Length
+- uid: PPOISFirstFirst.Vector.Length*
+  name: Length
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_Length_
+  commentId: Overload:PPOISFirstFirst.Vector.Length
+  isSpec: "True"
+  fullName: PPOISFirstFirst.Vector.Length
+  nameWithType: Vector.Length
+- uid: PPOISFirstFirst.Vector.ToString
+  name: ToString()
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_ToString
+  commentId: M:PPOISFirstFirst.Vector.ToString
+  fullName: PPOISFirstFirst.Vector.ToString()
+  nameWithType: Vector.ToString()
+- uid: PPOISFirstFirst.Vector.ToString*
+  name: ToString
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_ToString_
+  commentId: Overload:PPOISFirstFirst.Vector.ToString
+  isSpec: "True"
+  fullName: PPOISFirstFirst.Vector.ToString
+  nameWithType: Vector.ToString
+- uid: PPOISFirstFirst.Vector.X
+  name: X
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_X
+  commentId: P:PPOISFirstFirst.Vector.X
+  fullName: PPOISFirstFirst.Vector.X
+  nameWithType: Vector.X
+- uid: PPOISFirstFirst.Vector.X*
+  name: X
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_X_
+  commentId: Overload:PPOISFirstFirst.Vector.X
+  isSpec: "True"
+  fullName: PPOISFirstFirst.Vector.X
+  nameWithType: Vector.X
+- uid: PPOISFirstFirst.Vector.Y
+  name: Y
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_Y
+  commentId: P:PPOISFirstFirst.Vector.Y
+  fullName: PPOISFirstFirst.Vector.Y
+  nameWithType: Vector.Y
+- uid: PPOISFirstFirst.Vector.Y*
+  name: Y
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_Y_
+  commentId: Overload:PPOISFirstFirst.Vector.Y
+  isSpec: "True"
+  fullName: PPOISFirstFirst.Vector.Y
+  nameWithType: Vector.Y
+- uid: PPOISFirstFirst.Vector.Z
+  name: Z
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_Z
+  commentId: P:PPOISFirstFirst.Vector.Z
+  fullName: PPOISFirstFirst.Vector.Z
+  nameWithType: Vector.Z
+- uid: PPOISFirstFirst.Vector.Z*
+  name: Z
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_Z_
+  commentId: Overload:PPOISFirstFirst.Vector.Z
+  isSpec: "True"
+  fullName: PPOISFirstFirst.Vector.Z
+  nameWithType: Vector.Z
+- uid: PPOISFirstFirst.Vector.op_Addition(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  name: operator +(Vector, Vector)
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_Addition_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_
+  commentId: M:PPOISFirstFirst.Vector.op_Addition(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  name.vb: +(Vector, Vector)
+  fullName: PPOISFirstFirst.Vector.operator +(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  fullName.vb: PPOISFirstFirst.Vector.+(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  nameWithType: Vector.operator +(Vector, Vector)
+  nameWithType.vb: Vector.+(Vector, Vector)
+- uid: PPOISFirstFirst.Vector.op_Addition*
+  name: operator +
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_Addition_
+  commentId: Overload:PPOISFirstFirst.Vector.op_Addition
+  isSpec: "True"
+  name.vb: +
+  fullName: PPOISFirstFirst.Vector.operator +
+  fullName.vb: PPOISFirstFirst.Vector.+
+  nameWithType: Vector.operator +
+  nameWithType.vb: Vector.+
+- uid: PPOISFirstFirst.Vector.op_Division(PPOISFirstFirst.Vector,System.Double)
+  name: operator /(Vector, double)
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_Division_PPOISFirstFirst_Vector_System_Double_
+  commentId: M:PPOISFirstFirst.Vector.op_Division(PPOISFirstFirst.Vector,System.Double)
+  name.vb: /(Vector, Double)
+  fullName: PPOISFirstFirst.Vector.operator /(PPOISFirstFirst.Vector, double)
+  fullName.vb: PPOISFirstFirst.Vector./(PPOISFirstFirst.Vector, Double)
+  nameWithType: Vector.operator /(Vector, double)
+  nameWithType.vb: Vector./(Vector, Double)
+- uid: PPOISFirstFirst.Vector.op_Division*
+  name: operator /
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_Division_
+  commentId: Overload:PPOISFirstFirst.Vector.op_Division
+  isSpec: "True"
+  name.vb: /
+  fullName: PPOISFirstFirst.Vector.operator /
+  fullName.vb: PPOISFirstFirst.Vector./
+  nameWithType: Vector.operator /
+  nameWithType.vb: Vector./
+- uid: PPOISFirstFirst.Vector.op_ExclusiveOr(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  name: operator ^(Vector, Vector)
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_ExclusiveOr_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_
+  commentId: M:PPOISFirstFirst.Vector.op_ExclusiveOr(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  name.vb: Xor(Vector, Vector)
+  fullName: PPOISFirstFirst.Vector.operator ^(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  fullName.vb: PPOISFirstFirst.Vector.Xor(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  nameWithType: Vector.operator ^(Vector, Vector)
+  nameWithType.vb: Vector.Xor(Vector, Vector)
+- uid: PPOISFirstFirst.Vector.op_ExclusiveOr*
+  name: operator ^
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_ExclusiveOr_
+  commentId: Overload:PPOISFirstFirst.Vector.op_ExclusiveOr
+  isSpec: "True"
+  name.vb: Xor
+  fullName: PPOISFirstFirst.Vector.operator ^
+  fullName.vb: PPOISFirstFirst.Vector.Xor
+  nameWithType: Vector.operator ^
+  nameWithType.vb: Vector.Xor
+- uid: PPOISFirstFirst.Vector.op_GreaterThan(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  name: operator >(Vector, Vector)
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_GreaterThan_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_
+  commentId: M:PPOISFirstFirst.Vector.op_GreaterThan(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  name.vb: '>(Vector, Vector)'
+  fullName: PPOISFirstFirst.Vector.operator >(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  fullName.vb: PPOISFirstFirst.Vector.>(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  nameWithType: Vector.operator >(Vector, Vector)
+  nameWithType.vb: Vector.>(Vector, Vector)
+- uid: PPOISFirstFirst.Vector.op_GreaterThan*
+  name: operator >
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_GreaterThan_
+  commentId: Overload:PPOISFirstFirst.Vector.op_GreaterThan
+  isSpec: "True"
+  name.vb: '>'
+  fullName: PPOISFirstFirst.Vector.operator >
+  fullName.vb: PPOISFirstFirst.Vector.>
+  nameWithType: Vector.operator >
+  nameWithType.vb: Vector.>
+- uid: PPOISFirstFirst.Vector.op_GreaterThanOrEqual(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  name: operator >=(Vector, Vector)
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_GreaterThanOrEqual_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_
+  commentId: M:PPOISFirstFirst.Vector.op_GreaterThanOrEqual(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  name.vb: '>=(Vector, Vector)'
+  fullName: PPOISFirstFirst.Vector.operator >=(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  fullName.vb: PPOISFirstFirst.Vector.>=(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  nameWithType: Vector.operator >=(Vector, Vector)
+  nameWithType.vb: Vector.>=(Vector, Vector)
+- uid: PPOISFirstFirst.Vector.op_GreaterThanOrEqual*
+  name: operator >=
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_GreaterThanOrEqual_
+  commentId: Overload:PPOISFirstFirst.Vector.op_GreaterThanOrEqual
+  isSpec: "True"
+  name.vb: '>='
+  fullName: PPOISFirstFirst.Vector.operator >=
+  fullName.vb: PPOISFirstFirst.Vector.>=
+  nameWithType: Vector.operator >=
+  nameWithType.vb: Vector.>=
+- uid: PPOISFirstFirst.Vector.op_LessThan(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  name: operator <(Vector, Vector)
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_LessThan_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_
+  commentId: M:PPOISFirstFirst.Vector.op_LessThan(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  name.vb: <(Vector, Vector)
+  fullName: PPOISFirstFirst.Vector.operator <(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  fullName.vb: PPOISFirstFirst.Vector.<(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  nameWithType: Vector.operator <(Vector, Vector)
+  nameWithType.vb: Vector.<(Vector, Vector)
+- uid: PPOISFirstFirst.Vector.op_LessThan*
+  name: operator <
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_LessThan_
+  commentId: Overload:PPOISFirstFirst.Vector.op_LessThan
+  isSpec: "True"
+  name.vb: <
+  fullName: PPOISFirstFirst.Vector.operator <
+  fullName.vb: PPOISFirstFirst.Vector.<
+  nameWithType: Vector.operator <
+  nameWithType.vb: Vector.<
+- uid: PPOISFirstFirst.Vector.op_LessThanOrEqual(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  name: operator <=(Vector, Vector)
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_LessThanOrEqual_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_
+  commentId: M:PPOISFirstFirst.Vector.op_LessThanOrEqual(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  name.vb: <=(Vector, Vector)
+  fullName: PPOISFirstFirst.Vector.operator <=(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  fullName.vb: PPOISFirstFirst.Vector.<=(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  nameWithType: Vector.operator <=(Vector, Vector)
+  nameWithType.vb: Vector.<=(Vector, Vector)
+- uid: PPOISFirstFirst.Vector.op_LessThanOrEqual*
+  name: operator <=
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_LessThanOrEqual_
+  commentId: Overload:PPOISFirstFirst.Vector.op_LessThanOrEqual
+  isSpec: "True"
+  name.vb: <=
+  fullName: PPOISFirstFirst.Vector.operator <=
+  fullName.vb: PPOISFirstFirst.Vector.<=
+  nameWithType: Vector.operator <=
+  nameWithType.vb: Vector.<=
+- uid: PPOISFirstFirst.Vector.op_Multiply(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  name: operator *(Vector, Vector)
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_Multiply_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_
+  commentId: M:PPOISFirstFirst.Vector.op_Multiply(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  name.vb: '*(Vector, Vector)'
+  fullName: PPOISFirstFirst.Vector.operator *(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  fullName.vb: PPOISFirstFirst.Vector.*(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  nameWithType: Vector.operator *(Vector, Vector)
+  nameWithType.vb: Vector.*(Vector, Vector)
+- uid: PPOISFirstFirst.Vector.op_Multiply(PPOISFirstFirst.Vector,System.Double)
+  name: operator *(Vector, double)
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_Multiply_PPOISFirstFirst_Vector_System_Double_
+  commentId: M:PPOISFirstFirst.Vector.op_Multiply(PPOISFirstFirst.Vector,System.Double)
+  name.vb: '*(Vector, Double)'
+  fullName: PPOISFirstFirst.Vector.operator *(PPOISFirstFirst.Vector, double)
+  fullName.vb: PPOISFirstFirst.Vector.*(PPOISFirstFirst.Vector, Double)
+  nameWithType: Vector.operator *(Vector, double)
+  nameWithType.vb: Vector.*(Vector, Double)
+- uid: PPOISFirstFirst.Vector.op_Multiply(System.Double,PPOISFirstFirst.Vector)
+  name: operator *(double, Vector)
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_Multiply_System_Double_PPOISFirstFirst_Vector_
+  commentId: M:PPOISFirstFirst.Vector.op_Multiply(System.Double,PPOISFirstFirst.Vector)
+  name.vb: '*(Double, Vector)'
+  fullName: PPOISFirstFirst.Vector.operator *(double, PPOISFirstFirst.Vector)
+  fullName.vb: PPOISFirstFirst.Vector.*(Double, PPOISFirstFirst.Vector)
+  nameWithType: Vector.operator *(double, Vector)
+  nameWithType.vb: Vector.*(Double, Vector)
+- uid: PPOISFirstFirst.Vector.op_Multiply*
+  name: operator *
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_Multiply_
+  commentId: Overload:PPOISFirstFirst.Vector.op_Multiply
+  isSpec: "True"
+  name.vb: '*'
+  fullName: PPOISFirstFirst.Vector.operator *
+  fullName.vb: PPOISFirstFirst.Vector.*
+  nameWithType: Vector.operator *
+  nameWithType.vb: Vector.*
+- uid: PPOISFirstFirst.Vector.op_Subtraction(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  name: operator -(Vector, Vector)
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_Subtraction_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_
+  commentId: M:PPOISFirstFirst.Vector.op_Subtraction(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  name.vb: -(Vector, Vector)
+  fullName: PPOISFirstFirst.Vector.operator -(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  fullName.vb: PPOISFirstFirst.Vector.-(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  nameWithType: Vector.operator -(Vector, Vector)
+  nameWithType.vb: Vector.-(Vector, Vector)
+- uid: PPOISFirstFirst.Vector.op_Subtraction*
+  name: operator -
+  href: api/PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_Subtraction_
+  commentId: Overload:PPOISFirstFirst.Vector.op_Subtraction
+  isSpec: "True"
+  name.vb: '-'
+  fullName: PPOISFirstFirst.Vector.operator -
+  fullName.vb: PPOISFirstFirst.Vector.-
+  nameWithType: Vector.operator -
+  nameWithType.vb: Vector.-

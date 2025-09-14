@@ -1,0 +1,3 @@
+dotnet tests run
+dotnet tool install -g docfx
+dotnet add package coverlet.msbuild

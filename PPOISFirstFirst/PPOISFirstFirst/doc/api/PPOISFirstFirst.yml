@@ -1,0 +1,45 @@
+### YamlMime:ManagedReference
+items:
+- uid: PPOISFirstFirst
+  commentId: N:PPOISFirstFirst
+  id: PPOISFirstFirst
+  children:
+  - PPOISFirstFirst.DefaultLengthCalculator
+  - PPOISFirstFirst.ILength
+  - PPOISFirstFirst.Vector
+  langs:
+  - csharp
+  - vb
+  name: PPOISFirstFirst
+  nameWithType: PPOISFirstFirst
+  fullName: PPOISFirstFirst
+  type: Namespace
+  assemblies:
+  - PPOISFirstFirst
+references:
+- uid: PPOISFirstFirst.DefaultLengthCalculator
+  commentId: T:PPOISFirstFirst.DefaultLengthCalculator
+  href: PPOISFirstFirst.DefaultLengthCalculator.html
+  name: DefaultLengthCalculator
+  nameWithType: DefaultLengthCalculator
+  fullName: PPOISFirstFirst.DefaultLengthCalculator
+- uid: PPOISFirstFirst.ILength
+  commentId: T:PPOISFirstFirst.ILength
+  parent: PPOISFirstFirst
+  href: PPOISFirstFirst.ILength.html
+  name: ILength
+  nameWithType: ILength
+  fullName: PPOISFirstFirst.ILength
+- uid: PPOISFirstFirst.Vector
+  commentId: T:PPOISFirstFirst.Vector
+  parent: PPOISFirstFirst
+  href: PPOISFirstFirst.Vector.html
+  name: Vector
+  nameWithType: Vector
+  fullName: PPOISFirstFirst.Vector
+- uid: PPOISFirstFirst
+  commentId: N:PPOISFirstFirst
+  href: PPOISFirstFirst.html
+  name: PPOISFirstFirst
+  nameWithType: PPOISFirstFirst
+  fullName: PPOISFirstFirst

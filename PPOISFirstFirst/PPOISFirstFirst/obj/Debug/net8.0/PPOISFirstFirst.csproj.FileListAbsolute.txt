@@ -1,0 +1,29 @@
+C:\Users\Елизавета\source\repos\PPOISFirstFirst\PPOISFirstFirst\obj\Debug\net8.0\PPOISFirstFirst.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Елизавета\source\repos\PPOISFirstFirst\PPOISFirstFirst\obj\Debug\net8.0\PPOISFirstFirst.AssemblyInfoInputs.cache
+C:\Users\Елизавета\source\repos\PPOISFirstFirst\PPOISFirstFirst\obj\Debug\net8.0\PPOISFirstFirst.AssemblyInfo.cs
+C:\Users\Елизавета\source\repos\PPOISFirstFirst\PPOISFirstFirst\obj\Debug\net8.0\PPOISFirstFirst.csproj.CoreCompileInputs.cache
+C:\Users\Елизавета\source\repos\PPOISFirstFirst\PPOISFirstFirst\bin\Debug\net8.0\PPOISFirstFirst.exe
+C:\Users\Елизавета\source\repos\PPOISFirstFirst\PPOISFirstFirst\bin\Debug\net8.0\PPOISFirstFirst.deps.json
+C:\Users\Елизавета\source\repos\PPOISFirstFirst\PPOISFirstFirst\bin\Debug\net8.0\PPOISFirstFirst.runtimeconfig.json
+C:\Users\Елизавета\source\repos\PPOISFirstFirst\PPOISFirstFirst\bin\Debug\net8.0\PPOISFirstFirst.dll
+C:\Users\Елизавета\source\repos\PPOISFirstFirst\PPOISFirstFirst\bin\Debug\net8.0\PPOISFirstFirst.pdb
+C:\Users\Елизавета\source\repos\PPOISFirstFirst\PPOISFirstFirst\obj\Debug\net8.0\PPOISFirstFirst.dll
+C:\Users\Елизавета\source\repos\PPOISFirstFirst\PPOISFirstFirst\obj\Debug\net8.0\refint\PPOISFirstFirst.dll
+C:\Users\Елизавета\source\repos\PPOISFirstFirst\PPOISFirstFirst\obj\Debug\net8.0\PPOISFirstFirst.pdb
+C:\Users\Елизавета\source\repos\PPOISFirstFirst\PPOISFirstFirst\obj\Debug\net8.0\PPOISFirstFirst.genruntimeconfig.cache
+C:\Users\Елизавета\source\repos\PPOISFirstFirst\PPOISFirstFirst\obj\Debug\net8.0\ref\PPOISFirstFirst.dll
+C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\bin\Debug\net8.0\PPOISFirstFirst.exe
+C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\bin\Debug\net8.0\PPOISFirstFirst.xml
+C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\bin\Debug\net8.0\PPOISFirstFirst.deps.json
+C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\bin\Debug\net8.0\PPOISFirstFirst.runtimeconfig.json
+C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\bin\Debug\net8.0\PPOISFirstFirst.dll
+C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\bin\Debug\net8.0\PPOISFirstFirst.pdb
+C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\obj\Debug\net8.0\PPOISFirstFirst.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\obj\Debug\net8.0\PPOISFirstFirst.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\obj\Debug\net8.0\PPOISFirstFirst.AssemblyInfo.cs
+C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\obj\Debug\net8.0\PPOISFirstFirst.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\obj\Debug\net8.0\PPOISFirstFirst.dll
+C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\obj\Debug\net8.0\refint\PPOISFirstFirst.dll
+C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\obj\Debug\net8.0\PPOISFirstFirst.pdb
+C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\obj\Debug\net8.0\PPOISFirstFirst.genruntimeconfig.cache
+C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\obj\Debug\net8.0\ref\PPOISFirstFirst.dll

@@ -1,0 +1,25 @@
+### YamlMime:TableOfContent
+items:
+- uid: PPOISFirstSecond
+  name: PPOISFirstSecond
+  type: Namespace
+  items:
+  - uid: PPOISFirstSecond.IInsert
+    name: IInsert
+    type: Interface
+  - uid: PPOISFirstSecond.IReadFromDatabase
+    name: IReadFromDatabase
+    type: Interface
+  - uid: PPOISFirstSecond.IWriteToDatabase
+    name: IWriteToDatabase
+    type: Interface
+  - uid: PPOISFirstSecond.ReadFromDatabase
+    name: ReadFromDatabase
+    type: Class
+  - uid: PPOISFirstSecond.WordPair
+    name: WordPair
+    type: Class
+  - uid: PPOISFirstSecond.WriteToDatabase
+    name: WriteToDatabase
+    type: Class
+memberLayout: SamePage

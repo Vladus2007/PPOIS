@@ -1,0 +1,397 @@
+### YamlMime:ManagedReference
+items:
+- uid: PPOISFirstFirst.DefaultLengthCalculator
+  commentId: T:PPOISFirstFirst.DefaultLengthCalculator
+  id: DefaultLengthCalculator
+  parent: PPOISFirstFirst
+  children:
+  - PPOISFirstFirst.DefaultLengthCalculator.CalculateLength(System.Double,System.Double,System.Double)
+  langs:
+  - csharp
+  - vb
+  name: DefaultLengthCalculator
+  nameWithType: DefaultLengthCalculator
+  fullName: PPOISFirstFirst.DefaultLengthCalculator
+  type: Class
+  source:
+    id: DefaultLengthCalculator
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\Calculate.cs
+    startLine: 8
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  syntax:
+    content: 'public class DefaultLengthCalculator : ILength'
+    content.vb: Public Class DefaultLengthCalculator Implements ILength
+  inheritance:
+  - System.Object
+  implements:
+  - PPOISFirstFirst.ILength
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: PPOISFirstFirst.DefaultLengthCalculator.CalculateLength(System.Double,System.Double,System.Double)
+  commentId: M:PPOISFirstFirst.DefaultLengthCalculator.CalculateLength(System.Double,System.Double,System.Double)
+  id: CalculateLength(System.Double,System.Double,System.Double)
+  parent: PPOISFirstFirst.DefaultLengthCalculator
+  langs:
+  - csharp
+  - vb
+  name: CalculateLength(double, double, double)
+  nameWithType: DefaultLengthCalculator.CalculateLength(double, double, double)
+  fullName: PPOISFirstFirst.DefaultLengthCalculator.CalculateLength(double, double, double)
+  type: Method
+  source:
+    id: CalculateLength
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\Calculate.cs
+    startLine: 10
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  example: []
+  syntax:
+    content: public double CalculateLength(double x, double y, double z)
+    parameters:
+    - id: x
+      type: System.Double
+    - id: y
+      type: System.Double
+    - id: z
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Function CalculateLength(x As Double, y As Double, z As Double) As Double
+  overload: PPOISFirstFirst.DefaultLengthCalculator.CalculateLength*
+  implements:
+  - PPOISFirstFirst.ILength.CalculateLength(System.Double,System.Double,System.Double)
+  nameWithType.vb: DefaultLengthCalculator.CalculateLength(Double, Double, Double)
+  fullName.vb: PPOISFirstFirst.DefaultLengthCalculator.CalculateLength(Double, Double, Double)
+  name.vb: CalculateLength(Double, Double, Double)
+references:
+- uid: PPOISFirstFirst
+  commentId: N:PPOISFirstFirst
+  href: PPOISFirstFirst.html
+  name: PPOISFirstFirst
+  nameWithType: PPOISFirstFirst
+  fullName: PPOISFirstFirst
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: PPOISFirstFirst.ILength
+  commentId: T:PPOISFirstFirst.ILength
+  parent: PPOISFirstFirst
+  href: PPOISFirstFirst.ILength.html
+  name: ILength
+  nameWithType: ILength
+  fullName: PPOISFirstFirst.ILength
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: PPOISFirstFirst.DefaultLengthCalculator.CalculateLength*
+  commentId: Overload:PPOISFirstFirst.DefaultLengthCalculator.CalculateLength
+  href: PPOISFirstFirst.DefaultLengthCalculator.html#PPOISFirstFirst_DefaultLengthCalculator_CalculateLength_System_Double_System_Double_System_Double_
+  name: CalculateLength
+  nameWithType: DefaultLengthCalculator.CalculateLength
+  fullName: PPOISFirstFirst.DefaultLengthCalculator.CalculateLength
+- uid: PPOISFirstFirst.ILength.CalculateLength(System.Double,System.Double,System.Double)
+  commentId: M:PPOISFirstFirst.ILength.CalculateLength(System.Double,System.Double,System.Double)
+  parent: PPOISFirstFirst.ILength
+  isExternal: true
+  href: PPOISFirstFirst.ILength.html#PPOISFirstFirst_ILength_CalculateLength_System_Double_System_Double_System_Double_
+  name: CalculateLength(double, double, double)
+  nameWithType: ILength.CalculateLength(double, double, double)
+  fullName: PPOISFirstFirst.ILength.CalculateLength(double, double, double)
+  nameWithType.vb: ILength.CalculateLength(Double, Double, Double)
+  fullName.vb: PPOISFirstFirst.ILength.CalculateLength(Double, Double, Double)
+  name.vb: CalculateLength(Double, Double, Double)
+  spec.csharp:
+  - uid: PPOISFirstFirst.ILength.CalculateLength(System.Double,System.Double,System.Double)
+    name: CalculateLength
+    href: PPOISFirstFirst.ILength.html#PPOISFirstFirst_ILength_CalculateLength_System_Double_System_Double_System_Double_
+  - name: (
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: PPOISFirstFirst.ILength.CalculateLength(System.Double,System.Double,System.Double)
+    name: CalculateLength
+    href: PPOISFirstFirst.ILength.html#PPOISFirstFirst_ILength_CalculateLength_System_Double_System_Double_System_Double_
+  - name: (
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double

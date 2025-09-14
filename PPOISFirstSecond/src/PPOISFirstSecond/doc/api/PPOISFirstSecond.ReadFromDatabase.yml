@@ -1,0 +1,492 @@
+### YamlMime:ManagedReference
+items:
+- uid: PPOISFirstSecond.ReadFromDatabase
+  commentId: T:PPOISFirstSecond.ReadFromDatabase
+  id: ReadFromDatabase
+  parent: PPOISFirstSecond
+  children:
+  - PPOISFirstSecond.ReadFromDatabase.#ctor(AppDbContext)
+  - PPOISFirstSecond.ReadFromDatabase.Read
+  langs:
+  - csharp
+  - vb
+  name: ReadFromDatabase
+  nameWithType: ReadFromDatabase
+  fullName: PPOISFirstSecond.ReadFromDatabase
+  type: Class
+  source:
+    id: ReadFromDatabase
+    path: C:\Users\User\source\repos\PPOISFirstSecond\src\PPOISFirstSecond\ReadFromDatabase.cs
+    startLine: 16
+  assemblies:
+  - PPOISFirstSecond
+  namespace: PPOISFirstSecond
+  summary: >-
+    Provides functionality for reading word pairs from a database using Entity Framework Core.
+
+    Implements the IReadFromDatabase interface for database read operations.
+  example: []
+  syntax:
+    content: 'public class ReadFromDatabase : IReadFromDatabase'
+    content.vb: Public Class ReadFromDatabase Implements IReadFromDatabase
+  inheritance:
+  - System.Object
+  implements:
+  - PPOISFirstSecond.IReadFromDatabase
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: PPOISFirstSecond.ReadFromDatabase.#ctor(AppDbContext)
+  commentId: M:PPOISFirstSecond.ReadFromDatabase.#ctor(AppDbContext)
+  id: '#ctor(AppDbContext)'
+  parent: PPOISFirstSecond.ReadFromDatabase
+  langs:
+  - csharp
+  - vb
+  name: ReadFromDatabase(AppDbContext)
+  nameWithType: ReadFromDatabase.ReadFromDatabase(AppDbContext)
+  fullName: PPOISFirstSecond.ReadFromDatabase.ReadFromDatabase(AppDbContext)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\User\source\repos\PPOISFirstSecond\src\PPOISFirstSecond\ReadFromDatabase.cs
+    startLine: 24
+  assemblies:
+  - PPOISFirstSecond
+  namespace: PPOISFirstSecond
+  summary: Initializes a new instance of the ReadFromDatabase class with the specified database context.
+  example: []
+  syntax:
+    content: public ReadFromDatabase(AppDbContext context)
+    parameters:
+    - id: context
+      type: AppDbContext
+      description: The Entity Framework database context used for data access operations.
+    content.vb: Public Sub New(context As AppDbContext)
+  overload: PPOISFirstSecond.ReadFromDatabase.#ctor*
+  nameWithType.vb: ReadFromDatabase.New(AppDbContext)
+  fullName.vb: PPOISFirstSecond.ReadFromDatabase.New(AppDbContext)
+  name.vb: New(AppDbContext)
+- uid: PPOISFirstSecond.ReadFromDatabase.Read
+  commentId: M:PPOISFirstSecond.ReadFromDatabase.Read
+  id: Read
+  parent: PPOISFirstSecond.ReadFromDatabase
+  langs:
+  - csharp
+  - vb
+  name: Read()
+  nameWithType: ReadFromDatabase.Read()
+  fullName: PPOISFirstSecond.ReadFromDatabase.Read()
+  type: Method
+  source:
+    id: Read
+    path: C:\Users\User\source\repos\PPOISFirstSecond\src\PPOISFirstSecond\ReadFromDatabase.cs
+    startLine: 33
+  assemblies:
+  - PPOISFirstSecond
+  namespace: PPOISFirstSecond
+  summary: Reads all word pairs from the database.
+  example: []
+  syntax:
+    content: public IEnumerable<WordPair> Read()
+    return:
+      type: System.Collections.Generic.IEnumerable{PPOISFirstSecond.WordPair}
+      description: An enumerable collection of WordPair objects containing all word translations from the database.
+    content.vb: Public Function Read() As IEnumerable(Of WordPair)
+  overload: PPOISFirstSecond.ReadFromDatabase.Read*
+  implements:
+  - PPOISFirstSecond.IReadFromDatabase.Read
+references:
+- uid: PPOISFirstSecond
+  commentId: N:PPOISFirstSecond
+  href: PPOISFirstSecond.html
+  name: PPOISFirstSecond
+  nameWithType: PPOISFirstSecond
+  fullName: PPOISFirstSecond
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: PPOISFirstSecond.IReadFromDatabase
+  commentId: T:PPOISFirstSecond.IReadFromDatabase
+  parent: PPOISFirstSecond
+  href: PPOISFirstSecond.IReadFromDatabase.html
+  name: IReadFromDatabase
+  nameWithType: IReadFromDatabase
+  fullName: PPOISFirstSecond.IReadFromDatabase
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: PPOISFirstSecond.ReadFromDatabase.#ctor*
+  commentId: Overload:PPOISFirstSecond.ReadFromDatabase.#ctor
+  href: PPOISFirstSecond.ReadFromDatabase.html#PPOISFirstSecond_ReadFromDatabase__ctor_AppDbContext_
+  name: ReadFromDatabase
+  nameWithType: ReadFromDatabase.ReadFromDatabase
+  fullName: PPOISFirstSecond.ReadFromDatabase.ReadFromDatabase
+  nameWithType.vb: ReadFromDatabase.New
+  fullName.vb: PPOISFirstSecond.ReadFromDatabase.New
+  name.vb: New
+- uid: AppDbContext
+  commentId: T:AppDbContext
+  href: AppDbContext.html
+  name: AppDbContext
+  nameWithType: AppDbContext
+  fullName: AppDbContext
+- uid: PPOISFirstSecond.ReadFromDatabase.Read*
+  commentId: Overload:PPOISFirstSecond.ReadFromDatabase.Read
+  href: PPOISFirstSecond.ReadFromDatabase.html#PPOISFirstSecond_ReadFromDatabase_Read
+  name: Read
+  nameWithType: ReadFromDatabase.Read
+  fullName: PPOISFirstSecond.ReadFromDatabase.Read
+- uid: PPOISFirstSecond.IReadFromDatabase.Read
+  commentId: M:PPOISFirstSecond.IReadFromDatabase.Read
+  parent: PPOISFirstSecond.IReadFromDatabase
+  href: PPOISFirstSecond.IReadFromDatabase.html#PPOISFirstSecond_IReadFromDatabase_Read
+  name: Read()
+  nameWithType: IReadFromDatabase.Read()
+  fullName: PPOISFirstSecond.IReadFromDatabase.Read()
+  spec.csharp:
+  - uid: PPOISFirstSecond.IReadFromDatabase.Read
+    name: Read
+    href: PPOISFirstSecond.IReadFromDatabase.html#PPOISFirstSecond_IReadFromDatabase_Read
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: PPOISFirstSecond.IReadFromDatabase.Read
+    name: Read
+    href: PPOISFirstSecond.IReadFromDatabase.html#PPOISFirstSecond_IReadFromDatabase_Read
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{PPOISFirstSecond.WordPair}
+  commentId: T:System.Collections.Generic.IEnumerable{PPOISFirstSecond.WordPair}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<WordPair>
+  nameWithType: IEnumerable<WordPair>
+  fullName: System.Collections.Generic.IEnumerable<PPOISFirstSecond.WordPair>
+  nameWithType.vb: IEnumerable(Of WordPair)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of PPOISFirstSecond.WordPair)
+  name.vb: IEnumerable(Of WordPair)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: PPOISFirstSecond.WordPair
+    name: WordPair
+    href: PPOISFirstSecond.WordPair.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: PPOISFirstSecond.WordPair
+    name: WordPair
+    href: PPOISFirstSecond.WordPair.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

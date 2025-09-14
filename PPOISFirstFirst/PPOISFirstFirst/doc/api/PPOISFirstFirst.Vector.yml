@@ -1,0 +1,1346 @@
+### YamlMime:ManagedReference
+items:
+- uid: PPOISFirstFirst.Vector
+  commentId: T:PPOISFirstFirst.Vector
+  id: Vector
+  parent: PPOISFirstFirst
+  children:
+  - PPOISFirstFirst.Vector.#ctor(System.Double,System.Double,System.Double)
+  - PPOISFirstFirst.Vector.#ctor(System.Double,System.Double,System.Double,PPOISFirstFirst.ILength)
+  - PPOISFirstFirst.Vector.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  - PPOISFirstFirst.Vector.Equals(System.Object)
+  - PPOISFirstFirst.Vector.GetHashCode
+  - PPOISFirstFirst.Vector.Length
+  - PPOISFirstFirst.Vector.ToString
+  - PPOISFirstFirst.Vector.X
+  - PPOISFirstFirst.Vector.Y
+  - PPOISFirstFirst.Vector.Z
+  - PPOISFirstFirst.Vector.op_Addition(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  - PPOISFirstFirst.Vector.op_Division(PPOISFirstFirst.Vector,System.Double)
+  - PPOISFirstFirst.Vector.op_ExclusiveOr(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  - PPOISFirstFirst.Vector.op_GreaterThan(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  - PPOISFirstFirst.Vector.op_GreaterThanOrEqual(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  - PPOISFirstFirst.Vector.op_LessThan(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  - PPOISFirstFirst.Vector.op_LessThanOrEqual(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  - PPOISFirstFirst.Vector.op_Multiply(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  - PPOISFirstFirst.Vector.op_Multiply(PPOISFirstFirst.Vector,System.Double)
+  - PPOISFirstFirst.Vector.op_Multiply(System.Double,PPOISFirstFirst.Vector)
+  - PPOISFirstFirst.Vector.op_Subtraction(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  langs:
+  - csharp
+  - vb
+  name: Vector
+  nameWithType: Vector
+  fullName: PPOISFirstFirst.Vector
+  type: Class
+  source:
+    id: Vector
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\Vector.cs
+    startLine: 7
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  summary: Представляет трехмерный вектор с координатами X, Y, Z и вычисляемой длиной
+  example: []
+  syntax:
+    content: public class Vector
+    content.vb: Public Class Vector
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: PPOISFirstFirst.Vector.X
+  commentId: P:PPOISFirstFirst.Vector.X
+  id: X
+  parent: PPOISFirstFirst.Vector
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: Vector.X
+  fullName: PPOISFirstFirst.Vector.X
+  type: Property
+  source:
+    id: X
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\Vector.cs
+    startLine: 12
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  summary: Координата X вектора
+  example: []
+  syntax:
+    content: public double X { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property X As Double
+  overload: PPOISFirstFirst.Vector.X*
+- uid: PPOISFirstFirst.Vector.Y
+  commentId: P:PPOISFirstFirst.Vector.Y
+  id: Y
+  parent: PPOISFirstFirst.Vector
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: Vector.Y
+  fullName: PPOISFirstFirst.Vector.Y
+  type: Property
+  source:
+    id: Y
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\Vector.cs
+    startLine: 17
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  summary: Координата Y вектора
+  example: []
+  syntax:
+    content: public double Y { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Y As Double
+  overload: PPOISFirstFirst.Vector.Y*
+- uid: PPOISFirstFirst.Vector.Z
+  commentId: P:PPOISFirstFirst.Vector.Z
+  id: Z
+  parent: PPOISFirstFirst.Vector
+  langs:
+  - csharp
+  - vb
+  name: Z
+  nameWithType: Vector.Z
+  fullName: PPOISFirstFirst.Vector.Z
+  type: Property
+  source:
+    id: Z
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\Vector.cs
+    startLine: 22
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  summary: Координата Z вектора
+  example: []
+  syntax:
+    content: public double Z { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Z As Double
+  overload: PPOISFirstFirst.Vector.Z*
+- uid: PPOISFirstFirst.Vector.Length
+  commentId: P:PPOISFirstFirst.Vector.Length
+  id: Length
+  parent: PPOISFirstFirst.Vector
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: Vector.Length
+  fullName: PPOISFirstFirst.Vector.Length
+  type: Property
+  source:
+    id: Length
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\Vector.cs
+    startLine: 27
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  summary: Длина вектора
+  example: []
+  syntax:
+    content: public double Length { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Length As Double
+  overload: PPOISFirstFirst.Vector.Length*
+- uid: PPOISFirstFirst.Vector.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  commentId: M:PPOISFirstFirst.Vector.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  id: '#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)'
+  parent: PPOISFirstFirst.Vector
+  langs:
+  - csharp
+  - vb
+  name: Vector(double, double, double, double, double, double)
+  nameWithType: Vector.Vector(double, double, double, double, double, double)
+  fullName: PPOISFirstFirst.Vector.Vector(double, double, double, double, double, double)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\Vector.cs
+    startLine: 40
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  summary: Инициализирует новый экземпляр вектора по двум точкам в пространстве
+  example: []
+  syntax:
+    content: public Vector(double x1, double x2, double y1, double y2, double z1, double z2)
+    parameters:
+    - id: x1
+      type: System.Double
+      description: X-координата первой точки
+    - id: x2
+      type: System.Double
+      description: X-координата второй точки
+    - id: y1
+      type: System.Double
+      description: Y-координата первой точки
+    - id: y2
+      type: System.Double
+      description: Y-координата второй точки
+    - id: z1
+      type: System.Double
+      description: Z-координата первой точки
+    - id: z2
+      type: System.Double
+      description: Z-координата второй точки
+    content.vb: Public Sub New(x1 As Double, x2 As Double, y1 As Double, y2 As Double, z1 As Double, z2 As Double)
+  overload: PPOISFirstFirst.Vector.#ctor*
+  nameWithType.vb: Vector.New(Double, Double, Double, Double, Double, Double)
+  fullName.vb: PPOISFirstFirst.Vector.New(Double, Double, Double, Double, Double, Double)
+  name.vb: New(Double, Double, Double, Double, Double, Double)
+- uid: PPOISFirstFirst.Vector.#ctor(System.Double,System.Double,System.Double)
+  commentId: M:PPOISFirstFirst.Vector.#ctor(System.Double,System.Double,System.Double)
+  id: '#ctor(System.Double,System.Double,System.Double)'
+  parent: PPOISFirstFirst.Vector
+  langs:
+  - csharp
+  - vb
+  name: Vector(double, double, double)
+  nameWithType: Vector.Vector(double, double, double)
+  fullName: PPOISFirstFirst.Vector.Vector(double, double, double)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\Vector.cs
+    startLine: 51
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  summary: Инициализирует новый экземпляр вектора по координатам
+  example: []
+  syntax:
+    content: public Vector(double x, double y, double z)
+    parameters:
+    - id: x
+      type: System.Double
+      description: X-координата
+    - id: y
+      type: System.Double
+      description: Y-координата
+    - id: z
+      type: System.Double
+      description: Z-координата
+    content.vb: Public Sub New(x As Double, y As Double, z As Double)
+  overload: PPOISFirstFirst.Vector.#ctor*
+  nameWithType.vb: Vector.New(Double, Double, Double)
+  fullName.vb: PPOISFirstFirst.Vector.New(Double, Double, Double)
+  name.vb: New(Double, Double, Double)
+- uid: PPOISFirstFirst.Vector.#ctor(System.Double,System.Double,System.Double,PPOISFirstFirst.ILength)
+  commentId: M:PPOISFirstFirst.Vector.#ctor(System.Double,System.Double,System.Double,PPOISFirstFirst.ILength)
+  id: '#ctor(System.Double,System.Double,System.Double,PPOISFirstFirst.ILength)'
+  parent: PPOISFirstFirst.Vector
+  langs:
+  - csharp
+  - vb
+  name: Vector(double, double, double, ILength)
+  nameWithType: Vector.Vector(double, double, double, ILength)
+  fullName: PPOISFirstFirst.Vector.Vector(double, double, double, PPOISFirstFirst.ILength)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\Vector.cs
+    startLine: 64
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  summary: Инициализирует новый экземпляр вектора с пользовательским калькулятором длины
+  example: []
+  syntax:
+    content: public Vector(double x, double y, double z, ILength lengthCalculator)
+    parameters:
+    - id: x
+      type: System.Double
+      description: X-координата
+    - id: y
+      type: System.Double
+      description: Y-координата
+    - id: z
+      type: System.Double
+      description: Z-координата
+    - id: lengthCalculator
+      type: PPOISFirstFirst.ILength
+      description: Калькулятор длины вектора
+    content.vb: Public Sub New(x As Double, y As Double, z As Double, lengthCalculator As ILength)
+  overload: PPOISFirstFirst.Vector.#ctor*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Выбрасывается, если lengthCalculator равен null
+  nameWithType.vb: Vector.New(Double, Double, Double, ILength)
+  fullName.vb: PPOISFirstFirst.Vector.New(Double, Double, Double, PPOISFirstFirst.ILength)
+  name.vb: New(Double, Double, Double, ILength)
+- uid: PPOISFirstFirst.Vector.op_Addition(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  commentId: M:PPOISFirstFirst.Vector.op_Addition(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  id: op_Addition(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  parent: PPOISFirstFirst.Vector
+  langs:
+  - csharp
+  - vb
+  name: operator +(Vector, Vector)
+  nameWithType: Vector.operator +(Vector, Vector)
+  fullName: PPOISFirstFirst.Vector.operator +(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  type: Operator
+  source:
+    id: op_Addition
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\Vector.cs
+    startLine: 80
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  summary: Складывает два вектора
+  example: []
+  syntax:
+    content: public static Vector operator +(Vector a, Vector b)
+    parameters:
+    - id: a
+      type: PPOISFirstFirst.Vector
+      description: Первый вектор
+    - id: b
+      type: PPOISFirstFirst.Vector
+      description: Второй вектор
+    return:
+      type: PPOISFirstFirst.Vector
+      description: Новый вектор, являющийся суммой двух векторов
+    content.vb: Public Shared Operator +(a As Vector, b As Vector) As Vector
+  overload: PPOISFirstFirst.Vector.op_Addition*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Выбрасывается, если любой из векторов равен null
+  nameWithType.vb: Vector.+(Vector, Vector)
+  fullName.vb: PPOISFirstFirst.Vector.+(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  name.vb: +(Vector, Vector)
+- uid: PPOISFirstFirst.Vector.op_Subtraction(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  commentId: M:PPOISFirstFirst.Vector.op_Subtraction(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  id: op_Subtraction(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  parent: PPOISFirstFirst.Vector
+  langs:
+  - csharp
+  - vb
+  name: operator -(Vector, Vector)
+  nameWithType: Vector.operator -(Vector, Vector)
+  fullName: PPOISFirstFirst.Vector.operator -(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  type: Operator
+  source:
+    id: op_Subtraction
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\Vector.cs
+    startLine: 95
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  summary: Вычитает один вектор из другого
+  example: []
+  syntax:
+    content: public static Vector operator -(Vector a, Vector b)
+    parameters:
+    - id: a
+      type: PPOISFirstFirst.Vector
+      description: Вектор, из которого вычитают
+    - id: b
+      type: PPOISFirstFirst.Vector
+      description: Вектор, который вычитают
+    return:
+      type: PPOISFirstFirst.Vector
+      description: Новый вектор, являющийся разностью двух векторов
+    content.vb: Public Shared Operator -(a As Vector, b As Vector) As Vector
+  overload: PPOISFirstFirst.Vector.op_Subtraction*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Выбрасывается, если любой из векторов равен null
+  nameWithType.vb: Vector.-(Vector, Vector)
+  fullName.vb: PPOISFirstFirst.Vector.-(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  name.vb: -(Vector, Vector)
+- uid: PPOISFirstFirst.Vector.op_Multiply(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  commentId: M:PPOISFirstFirst.Vector.op_Multiply(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  id: op_Multiply(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  parent: PPOISFirstFirst.Vector
+  langs:
+  - csharp
+  - vb
+  name: operator *(Vector, Vector)
+  nameWithType: Vector.operator *(Vector, Vector)
+  fullName: PPOISFirstFirst.Vector.operator *(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  type: Operator
+  source:
+    id: op_Multiply
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\Vector.cs
+    startLine: 110
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  summary: Вычисляет векторное произведение двух векторов
+  example: []
+  syntax:
+    content: public static Vector operator *(Vector a, Vector b)
+    parameters:
+    - id: a
+      type: PPOISFirstFirst.Vector
+      description: Первый вектор
+    - id: b
+      type: PPOISFirstFirst.Vector
+      description: Второй вектор
+    return:
+      type: PPOISFirstFirst.Vector
+      description: Новый вектор, являющийся векторным произведением
+    content.vb: Public Shared Operator *(a As Vector, b As Vector) As Vector
+  overload: PPOISFirstFirst.Vector.op_Multiply*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Выбрасывается, если любой из векторов равен null
+  nameWithType.vb: Vector.*(Vector, Vector)
+  fullName.vb: PPOISFirstFirst.Vector.*(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  name.vb: '*(Vector, Vector)'
+- uid: PPOISFirstFirst.Vector.op_Multiply(PPOISFirstFirst.Vector,System.Double)
+  commentId: M:PPOISFirstFirst.Vector.op_Multiply(PPOISFirstFirst.Vector,System.Double)
+  id: op_Multiply(PPOISFirstFirst.Vector,System.Double)
+  parent: PPOISFirstFirst.Vector
+  langs:
+  - csharp
+  - vb
+  name: operator *(Vector, double)
+  nameWithType: Vector.operator *(Vector, double)
+  fullName: PPOISFirstFirst.Vector.operator *(PPOISFirstFirst.Vector, double)
+  type: Operator
+  source:
+    id: op_Multiply
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\Vector.cs
+    startLine: 129
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  summary: Умножает вектор на скаляр
+  example: []
+  syntax:
+    content: public static Vector operator *(Vector vector, double scalar)
+    parameters:
+    - id: vector
+      type: PPOISFirstFirst.Vector
+      description: Вектор для умножения
+    - id: scalar
+      type: System.Double
+      description: Скалярное значение
+    return:
+      type: PPOISFirstFirst.Vector
+      description: Новый вектор, умноженный на скаляр
+    content.vb: Public Shared Operator *(vector As Vector, scalar As Double) As Vector
+  overload: PPOISFirstFirst.Vector.op_Multiply*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Выбрасывается, если вектор равен null
+  nameWithType.vb: Vector.*(Vector, Double)
+  fullName.vb: PPOISFirstFirst.Vector.*(PPOISFirstFirst.Vector, Double)
+  name.vb: '*(Vector, Double)'
+- uid: PPOISFirstFirst.Vector.op_Multiply(System.Double,PPOISFirstFirst.Vector)
+  commentId: M:PPOISFirstFirst.Vector.op_Multiply(System.Double,PPOISFirstFirst.Vector)
+  id: op_Multiply(System.Double,PPOISFirstFirst.Vector)
+  parent: PPOISFirstFirst.Vector
+  langs:
+  - csharp
+  - vb
+  name: operator *(double, Vector)
+  nameWithType: Vector.operator *(double, Vector)
+  fullName: PPOISFirstFirst.Vector.operator *(double, PPOISFirstFirst.Vector)
+  type: Operator
+  source:
+    id: op_Multiply
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\Vector.cs
+    startLine: 143
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  summary: Умножает скаляр на вектор
+  example: []
+  syntax:
+    content: public static Vector operator *(double scalar, Vector vector)
+    parameters:
+    - id: scalar
+      type: System.Double
+      description: Скалярное значение
+    - id: vector
+      type: PPOISFirstFirst.Vector
+      description: Вектор для умножения
+    return:
+      type: PPOISFirstFirst.Vector
+      description: Новый вектор, умноженный на скаляр
+    content.vb: Public Shared Operator *(scalar As Double, vector As Vector) As Vector
+  overload: PPOISFirstFirst.Vector.op_Multiply*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Выбрасывается, если вектор равен null
+  nameWithType.vb: Vector.*(Double, Vector)
+  fullName.vb: PPOISFirstFirst.Vector.*(Double, PPOISFirstFirst.Vector)
+  name.vb: '*(Double, Vector)'
+- uid: PPOISFirstFirst.Vector.op_Division(PPOISFirstFirst.Vector,System.Double)
+  commentId: M:PPOISFirstFirst.Vector.op_Division(PPOISFirstFirst.Vector,System.Double)
+  id: op_Division(PPOISFirstFirst.Vector,System.Double)
+  parent: PPOISFirstFirst.Vector
+  langs:
+  - csharp
+  - vb
+  name: operator /(Vector, double)
+  nameWithType: Vector.operator /(Vector, double)
+  fullName: PPOISFirstFirst.Vector.operator /(PPOISFirstFirst.Vector, double)
+  type: Operator
+  source:
+    id: op_Division
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\Vector.cs
+    startLine: 158
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  summary: Делит вектор на скаляр
+  example: []
+  syntax:
+    content: public static Vector operator /(Vector vector, double scalar)
+    parameters:
+    - id: vector
+      type: PPOISFirstFirst.Vector
+      description: Вектор для деления
+    - id: scalar
+      type: System.Double
+      description: Скалярное значение
+    return:
+      type: PPOISFirstFirst.Vector
+      description: Новый вектор, разделенный на скаляр
+    content.vb: Public Shared Operator /(vector As Vector, scalar As Double) As Vector
+  overload: PPOISFirstFirst.Vector.op_Division*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Выбрасывается, если вектор равен null
+  - type: System.DivideByZeroException
+    commentId: T:System.DivideByZeroException
+    description: Выбрасывается, если скаляр равен нулю
+  nameWithType.vb: Vector./(Vector, Double)
+  fullName.vb: PPOISFirstFirst.Vector./(PPOISFirstFirst.Vector, Double)
+  name.vb: /(Vector, Double)
+- uid: PPOISFirstFirst.Vector.op_ExclusiveOr(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  commentId: M:PPOISFirstFirst.Vector.op_ExclusiveOr(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  id: op_ExclusiveOr(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  parent: PPOISFirstFirst.Vector
+  langs:
+  - csharp
+  - vb
+  name: operator ^(Vector, Vector)
+  nameWithType: Vector.operator ^(Vector, Vector)
+  fullName: PPOISFirstFirst.Vector.operator ^(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  type: Operator
+  source:
+    id: op_ExclusiveOr
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\Vector.cs
+    startLine: 174
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  summary: Вычисляет косинус угла между двумя векторами
+  example: []
+  syntax:
+    content: public static double operator ^(Vector a, Vector b)
+    parameters:
+    - id: a
+      type: PPOISFirstFirst.Vector
+      description: Первый вектор
+    - id: b
+      type: PPOISFirstFirst.Vector
+      description: Второй вектор
+    return:
+      type: System.Double
+      description: Косинус угла между векторами
+    content.vb: Public Shared Operator Xor(a As Vector, b As Vector) As Double
+  overload: PPOISFirstFirst.Vector.op_ExclusiveOr*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Выбрасывается, если любой из векторов равен null
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: Выбрасывается, если длина любого из векторов равна нулю
+  nameWithType.vb: Vector.Xor(Vector, Vector)
+  fullName.vb: PPOISFirstFirst.Vector.Xor(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  name.vb: Xor(Vector, Vector)
+- uid: PPOISFirstFirst.Vector.op_GreaterThan(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  commentId: M:PPOISFirstFirst.Vector.op_GreaterThan(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  id: op_GreaterThan(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  parent: PPOISFirstFirst.Vector
+  langs:
+  - csharp
+  - vb
+  name: operator >(Vector, Vector)
+  nameWithType: Vector.operator >(Vector, Vector)
+  fullName: PPOISFirstFirst.Vector.operator >(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  type: Operator
+  source:
+    id: op_GreaterThan
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\Vector.cs
+    startLine: 191
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  summary: Проверяет, больше ли один вектор другого по двум координатам при равенстве третьей
+  example: []
+  syntax:
+    content: public static bool operator >(Vector a, Vector b)
+    parameters:
+    - id: a
+      type: PPOISFirstFirst.Vector
+      description: Первый вектор
+    - id: b
+      type: PPOISFirstFirst.Vector
+      description: Второй вектор
+    return:
+      type: System.Boolean
+      description: True если вектор a больше вектора b по двум координатам
+    content.vb: Public Shared Operator >(a As Vector, b As Vector) As Boolean
+  overload: PPOISFirstFirst.Vector.op_GreaterThan*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Выбрасывается, если любой из векторов равен null
+  nameWithType.vb: Vector.>(Vector, Vector)
+  fullName.vb: PPOISFirstFirst.Vector.>(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  name.vb: '>(Vector, Vector)'
+- uid: PPOISFirstFirst.Vector.op_LessThan(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  commentId: M:PPOISFirstFirst.Vector.op_LessThan(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  id: op_LessThan(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  parent: PPOISFirstFirst.Vector
+  langs:
+  - csharp
+  - vb
+  name: operator <(Vector, Vector)
+  nameWithType: Vector.operator <(Vector, Vector)
+  fullName: PPOISFirstFirst.Vector.operator <(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  type: Operator
+  source:
+    id: op_LessThan
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\Vector.cs
+    startLine: 211
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  summary: Проверяет, меньше ли один вектор другого по двум координатам при равенстве третьей
+  example: []
+  syntax:
+    content: public static bool operator <(Vector a, Vector b)
+    parameters:
+    - id: a
+      type: PPOISFirstFirst.Vector
+      description: Первый вектор
+    - id: b
+      type: PPOISFirstFirst.Vector
+      description: Второй вектор
+    return:
+      type: System.Boolean
+      description: True если вектор a меньше вектора b по двум координатам
+    content.vb: Public Shared Operator <(a As Vector, b As Vector) As Boolean
+  overload: PPOISFirstFirst.Vector.op_LessThan*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Выбрасывается, если любой из векторов равен null
+  nameWithType.vb: Vector.<(Vector, Vector)
+  fullName.vb: PPOISFirstFirst.Vector.<(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  name.vb: <(Vector, Vector)
+- uid: PPOISFirstFirst.Vector.op_GreaterThanOrEqual(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  commentId: M:PPOISFirstFirst.Vector.op_GreaterThanOrEqual(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  id: op_GreaterThanOrEqual(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  parent: PPOISFirstFirst.Vector
+  langs:
+  - csharp
+  - vb
+  name: operator >=(Vector, Vector)
+  nameWithType: Vector.operator >=(Vector, Vector)
+  fullName: PPOISFirstFirst.Vector.operator >=(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  type: Operator
+  source:
+    id: op_GreaterThanOrEqual
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\Vector.cs
+    startLine: 231
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  summary: Проверяет, больше или равен ли один вектор другого по двум координатам при равенстве третьей
+  example: []
+  syntax:
+    content: public static bool operator >=(Vector a, Vector b)
+    parameters:
+    - id: a
+      type: PPOISFirstFirst.Vector
+      description: Первый вектор
+    - id: b
+      type: PPOISFirstFirst.Vector
+      description: Второй вектор
+    return:
+      type: System.Boolean
+      description: True если вектор a больше или равен вектору b по двум координатам
+    content.vb: Public Shared Operator >=(a As Vector, b As Vector) As Boolean
+  overload: PPOISFirstFirst.Vector.op_GreaterThanOrEqual*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Выбрасывается, если любой из векторов равен null
+  nameWithType.vb: Vector.>=(Vector, Vector)
+  fullName.vb: PPOISFirstFirst.Vector.>=(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  name.vb: '>=(Vector, Vector)'
+- uid: PPOISFirstFirst.Vector.op_LessThanOrEqual(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  commentId: M:PPOISFirstFirst.Vector.op_LessThanOrEqual(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  id: op_LessThanOrEqual(PPOISFirstFirst.Vector,PPOISFirstFirst.Vector)
+  parent: PPOISFirstFirst.Vector
+  langs:
+  - csharp
+  - vb
+  name: operator <=(Vector, Vector)
+  nameWithType: Vector.operator <=(Vector, Vector)
+  fullName: PPOISFirstFirst.Vector.operator <=(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  type: Operator
+  source:
+    id: op_LessThanOrEqual
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\Vector.cs
+    startLine: 251
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  summary: Проверяет, меньше или равен ли один вектор другого по двум координатам при равенстве третьей
+  example: []
+  syntax:
+    content: public static bool operator <=(Vector a, Vector b)
+    parameters:
+    - id: a
+      type: PPOISFirstFirst.Vector
+      description: Первый вектор
+    - id: b
+      type: PPOISFirstFirst.Vector
+      description: Второй вектор
+    return:
+      type: System.Boolean
+      description: True если вектор a меньше или равен вектору b по двум координатам
+    content.vb: Public Shared Operator <=(a As Vector, b As Vector) As Boolean
+  overload: PPOISFirstFirst.Vector.op_LessThanOrEqual*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Выбрасывается, если любой из векторов равен null
+  nameWithType.vb: Vector.<=(Vector, Vector)
+  fullName.vb: PPOISFirstFirst.Vector.<=(PPOISFirstFirst.Vector, PPOISFirstFirst.Vector)
+  name.vb: <=(Vector, Vector)
+- uid: PPOISFirstFirst.Vector.ToString
+  commentId: M:PPOISFirstFirst.Vector.ToString
+  id: ToString
+  parent: PPOISFirstFirst.Vector
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Vector.ToString()
+  fullName: PPOISFirstFirst.Vector.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\Vector.cs
+    startLine: 268
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  summary: Возвращает строковое представление вектора
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: 'Строка в формате "Vector(X: {X}, Y: {Y}, Z: {Z}, Length: {Length})"'
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: PPOISFirstFirst.Vector.ToString*
+- uid: PPOISFirstFirst.Vector.Equals(System.Object)
+  commentId: M:PPOISFirstFirst.Vector.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: PPOISFirstFirst.Vector
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: Vector.Equals(object)
+  fullName: PPOISFirstFirst.Vector.Equals(object)
+  type: Method
+  source:
+    id: Equals
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\Vector.cs
+    startLine: 278
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  summary: Определяет, равен ли указанный объект текущему вектору
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: Объект для сравнения
+    return:
+      type: System.Boolean
+      description: True если объекты равны, иначе False
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: PPOISFirstFirst.Vector.Equals*
+  nameWithType.vb: Vector.Equals(Object)
+  fullName.vb: PPOISFirstFirst.Vector.Equals(Object)
+  name.vb: Equals(Object)
+- uid: PPOISFirstFirst.Vector.GetHashCode
+  commentId: M:PPOISFirstFirst.Vector.GetHashCode
+  id: GetHashCode
+  parent: PPOISFirstFirst.Vector
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Vector.GetHashCode()
+  fullName: PPOISFirstFirst.Vector.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: C:\Users\User\OneDrive\Рабочий стол\PPOISFirstFirst\PPOISFirstFirst\Vector.cs
+    startLine: 291
+  assemblies:
+  - PPOISFirstFirst
+  namespace: PPOISFirstFirst
+  summary: Возвращает хэш-код для текущего вектора
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: Хэш-код, основанный на координатах X, Y, Z
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: PPOISFirstFirst.Vector.GetHashCode*
+references:
+- uid: PPOISFirstFirst
+  commentId: N:PPOISFirstFirst
+  href: PPOISFirstFirst.html
+  name: PPOISFirstFirst
+  nameWithType: PPOISFirstFirst
+  fullName: PPOISFirstFirst
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: PPOISFirstFirst.Vector.X*
+  commentId: Overload:PPOISFirstFirst.Vector.X
+  href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_X
+  name: X
+  nameWithType: Vector.X
+  fullName: PPOISFirstFirst.Vector.X
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: PPOISFirstFirst.Vector.Y*
+  commentId: Overload:PPOISFirstFirst.Vector.Y
+  href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_Y
+  name: Y
+  nameWithType: Vector.Y
+  fullName: PPOISFirstFirst.Vector.Y
+- uid: PPOISFirstFirst.Vector.Z*
+  commentId: Overload:PPOISFirstFirst.Vector.Z
+  href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_Z
+  name: Z
+  nameWithType: Vector.Z
+  fullName: PPOISFirstFirst.Vector.Z
+- uid: PPOISFirstFirst.Vector.Length*
+  commentId: Overload:PPOISFirstFirst.Vector.Length
+  href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_Length
+  name: Length
+  nameWithType: Vector.Length
+  fullName: PPOISFirstFirst.Vector.Length
+- uid: PPOISFirstFirst.Vector.#ctor*
+  commentId: Overload:PPOISFirstFirst.Vector.#ctor
+  href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector__ctor_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_
+  name: Vector
+  nameWithType: Vector.Vector
+  fullName: PPOISFirstFirst.Vector.Vector
+  nameWithType.vb: Vector.New
+  fullName.vb: PPOISFirstFirst.Vector.New
+  name.vb: New
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
+- uid: PPOISFirstFirst.ILength
+  commentId: T:PPOISFirstFirst.ILength
+  parent: PPOISFirstFirst
+  href: PPOISFirstFirst.ILength.html
+  name: ILength
+  nameWithType: ILength
+  fullName: PPOISFirstFirst.ILength
+- uid: PPOISFirstFirst.Vector.op_Addition*
+  commentId: Overload:PPOISFirstFirst.Vector.op_Addition
+  href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_Addition_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_
+  name: operator +
+  nameWithType: Vector.operator +
+  fullName: PPOISFirstFirst.Vector.operator +
+  nameWithType.vb: Vector.+
+  fullName.vb: PPOISFirstFirst.Vector.+
+  name.vb: +
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: PPOISFirstFirst.Vector.op_Addition*
+    name: +
+    href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_Addition_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_
+- uid: PPOISFirstFirst.Vector
+  commentId: T:PPOISFirstFirst.Vector
+  parent: PPOISFirstFirst
+  href: PPOISFirstFirst.Vector.html
+  name: Vector
+  nameWithType: Vector
+  fullName: PPOISFirstFirst.Vector
+- uid: PPOISFirstFirst.Vector.op_Subtraction*
+  commentId: Overload:PPOISFirstFirst.Vector.op_Subtraction
+  href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_Subtraction_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_
+  name: operator -
+  nameWithType: Vector.operator -
+  fullName: PPOISFirstFirst.Vector.operator -
+  nameWithType.vb: Vector.-
+  fullName.vb: PPOISFirstFirst.Vector.-
+  name.vb: '-'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: PPOISFirstFirst.Vector.op_Subtraction*
+    name: '-'
+    href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_Subtraction_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_
+- uid: PPOISFirstFirst.Vector.op_Multiply*
+  commentId: Overload:PPOISFirstFirst.Vector.op_Multiply
+  href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_Multiply_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_
+  name: operator *
+  nameWithType: Vector.operator *
+  fullName: PPOISFirstFirst.Vector.operator *
+  nameWithType.vb: Vector.*
+  fullName.vb: PPOISFirstFirst.Vector.*
+  name.vb: '*'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: PPOISFirstFirst.Vector.op_Multiply*
+    name: '*'
+    href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_Multiply_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_
+- uid: System.DivideByZeroException
+  commentId: T:System.DivideByZeroException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.dividebyzeroexception
+  name: DivideByZeroException
+  nameWithType: DivideByZeroException
+  fullName: System.DivideByZeroException
+- uid: PPOISFirstFirst.Vector.op_Division*
+  commentId: Overload:PPOISFirstFirst.Vector.op_Division
+  href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_Division_PPOISFirstFirst_Vector_System_Double_
+  name: operator /
+  nameWithType: Vector.operator /
+  fullName: PPOISFirstFirst.Vector.operator /
+  nameWithType.vb: Vector./
+  fullName.vb: PPOISFirstFirst.Vector./
+  name.vb: /
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: PPOISFirstFirst.Vector.op_Division*
+    name: /
+    href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_Division_PPOISFirstFirst_Vector_System_Double_
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.invalidoperationexception
+  name: InvalidOperationException
+  nameWithType: InvalidOperationException
+  fullName: System.InvalidOperationException
+- uid: PPOISFirstFirst.Vector.op_ExclusiveOr*
+  commentId: Overload:PPOISFirstFirst.Vector.op_ExclusiveOr
+  href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_ExclusiveOr_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_
+  name: operator ^
+  nameWithType: Vector.operator ^
+  fullName: PPOISFirstFirst.Vector.operator ^
+  nameWithType.vb: Vector.Xor
+  fullName.vb: PPOISFirstFirst.Vector.Xor
+  name.vb: Xor
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: PPOISFirstFirst.Vector.op_ExclusiveOr*
+    name: ^
+    href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_ExclusiveOr_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_
+- uid: PPOISFirstFirst.Vector.op_GreaterThan*
+  commentId: Overload:PPOISFirstFirst.Vector.op_GreaterThan
+  href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_GreaterThan_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_
+  name: operator >
+  nameWithType: Vector.operator >
+  fullName: PPOISFirstFirst.Vector.operator >
+  nameWithType.vb: Vector.>
+  fullName.vb: PPOISFirstFirst.Vector.>
+  name.vb: '>'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: PPOISFirstFirst.Vector.op_GreaterThan*
+    name: '>'
+    href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_GreaterThan_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: PPOISFirstFirst.Vector.op_LessThan*
+  commentId: Overload:PPOISFirstFirst.Vector.op_LessThan
+  href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_LessThan_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_
+  name: operator <
+  nameWithType: Vector.operator <
+  fullName: PPOISFirstFirst.Vector.operator <
+  nameWithType.vb: Vector.<
+  fullName.vb: PPOISFirstFirst.Vector.<
+  name.vb: <
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: PPOISFirstFirst.Vector.op_LessThan*
+    name: <
+    href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_LessThan_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_
+- uid: PPOISFirstFirst.Vector.op_GreaterThanOrEqual*
+  commentId: Overload:PPOISFirstFirst.Vector.op_GreaterThanOrEqual
+  href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_GreaterThanOrEqual_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_
+  name: operator >=
+  nameWithType: Vector.operator >=
+  fullName: PPOISFirstFirst.Vector.operator >=
+  nameWithType.vb: Vector.>=
+  fullName.vb: PPOISFirstFirst.Vector.>=
+  name.vb: '>='
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: PPOISFirstFirst.Vector.op_GreaterThanOrEqual*
+    name: '>='
+    href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_GreaterThanOrEqual_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_
+- uid: PPOISFirstFirst.Vector.op_LessThanOrEqual*
+  commentId: Overload:PPOISFirstFirst.Vector.op_LessThanOrEqual
+  href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_LessThanOrEqual_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_
+  name: operator <=
+  nameWithType: Vector.operator <=
+  fullName: PPOISFirstFirst.Vector.operator <=
+  nameWithType.vb: Vector.<=
+  fullName.vb: PPOISFirstFirst.Vector.<=
+  name.vb: <=
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: PPOISFirstFirst.Vector.op_LessThanOrEqual*
+    name: <=
+    href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_op_LessThanOrEqual_PPOISFirstFirst_Vector_PPOISFirstFirst_Vector_
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: PPOISFirstFirst.Vector.ToString*
+  commentId: Overload:PPOISFirstFirst.Vector.ToString
+  href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_ToString
+  name: ToString
+  nameWithType: Vector.ToString
+  fullName: PPOISFirstFirst.Vector.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: PPOISFirstFirst.Vector.Equals*
+  commentId: Overload:PPOISFirstFirst.Vector.Equals
+  href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_Equals_System_Object_
+  name: Equals
+  nameWithType: Vector.Equals
+  fullName: PPOISFirstFirst.Vector.Equals
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: PPOISFirstFirst.Vector.GetHashCode*
+  commentId: Overload:PPOISFirstFirst.Vector.GetHashCode
+  href: PPOISFirstFirst.Vector.html#PPOISFirstFirst_Vector_GetHashCode
+  name: GetHashCode
+  nameWithType: Vector.GetHashCode
+  fullName: PPOISFirstFirst.Vector.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

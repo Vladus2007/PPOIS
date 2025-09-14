@@ -1,0 +1,315 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3C89C2-79E8-42A7-AB83-3D42E54D0068}|MyLibrary.Tests\\MyLibrary.Tests.csproj|c:\\users\\user\\source\\repos\\ppoisfirstsecond\\mylibrary.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3C89C2-79E8-42A7-AB83-3D42E54D0068}|MyLibrary.Tests\\MyLibrary.Tests.csproj|solutionrelative:mylibrary.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3C89C2-79E8-42A7-AB83-3D42E54D0068}|MyLibrary.Tests\\MyLibrary.Tests.csproj|c:\\users\\user\\source\\repos\\ppoisfirstsecond\\mylibrary.tests\\mylibrary.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4C3C89C2-79E8-42A7-AB83-3D42E54D0068}|MyLibrary.Tests\\MyLibrary.Tests.csproj|solutionrelative:mylibrary.tests\\mylibrary.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|c:\\users\\user\\source\\repos\\ppoisfirstsecond\\ppoisfirstsecond\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|solutionrelative:ppoisfirstsecond\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|c:\\users\\user\\source\\repos\\ppoisfirstsecond\\ppoisfirstsecond\\writetodatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|solutionrelative:ppoisfirstsecond\\writetodatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|c:\\users\\user\\source\\repos\\ppoisfirstsecond\\ppoisfirstsecond\\wordpair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|solutionrelative:ppoisfirstsecond\\wordpair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|c:\\users\\user\\source\\repos\\ppoisfirstsecond\\ppoisfirstsecond\\readfromdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|solutionrelative:ppoisfirstsecond\\readfromdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|c:\\users\\user\\source\\repos\\ppoisfirstsecond\\ppoisfirstsecond\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|solutionrelative:ppoisfirstsecond\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|c:\\users\\user\\source\\repos\\ppoisfirstsecond\\ppoisfirstsecond\\iwritetodatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|solutionrelative:ppoisfirstsecond\\iwritetodatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|c:\\users\\user\\source\\repos\\ppoisfirstsecond\\ppoisfirstsecond\\ireadfromdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|solutionrelative:ppoisfirstsecond\\ireadfromdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|c:\\users\\user\\source\\repos\\ppoisfirstsecond\\ppoisfirstsecond\\englishrussiandictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|solutionrelative:ppoisfirstsecond\\englishrussiandictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|c:\\users\\user\\source\\repos\\ppoisfirstsecond\\ppoisfirstsecond\\iinsert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|solutionrelative:ppoisfirstsecond\\iinsert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3C89C2-79E8-42A7-AB83-3D42E54D0068}|MyLibrary.Tests\\MyLibrary.Tests.csproj|c:\\users\\user\\source\\repos\\ppoisfirstsecond\\mylibrary.tests\\coveragereport\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4C3C89C2-79E8-42A7-AB83-3D42E54D0068}|MyLibrary.Tests\\MyLibrary.Tests.csproj|solutionrelative:mylibrary.tests\\coveragereport\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3C89C2-79E8-42A7-AB83-3D42E54D0068}|MyLibrary.Tests\\MyLibrary.Tests.csproj|c:\\users\\user\\source\\repos\\ppoisfirstsecond\\mylibrary.tests\\coveragereport\\icon_plus_dark.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4C3C89C2-79E8-42A7-AB83-3D42E54D0068}|MyLibrary.Tests\\MyLibrary.Tests.csproj|solutionrelative:mylibrary.tests\\coveragereport\\icon_plus_dark.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3C89C2-79E8-42A7-AB83-3D42E54D0068}|MyLibrary.Tests\\MyLibrary.Tests.csproj|c:\\users\\user\\source\\repos\\ppoisfirstsecond\\mylibrary.tests\\testresults\\3f17477f-03f8-475b-8bc1-4f612125a5b4\\coverage.cobertura.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4C3C89C2-79E8-42A7-AB83-3D42E54D0068}|MyLibrary.Tests\\MyLibrary.Tests.csproj|solutionrelative:mylibrary.tests\\testresults\\3f17477f-03f8-475b-8bc1-4f612125a5b4\\coverage.cobertura.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|c:\\users\\user\\source\\repos\\ppoisfirstsecond\\ppoisfirstsecond\\ppoisfirstsecond.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{008CF06E-288A-46FF-AC74-EB57EF51FC2D}|PPOISFirstSecond\\PPOISFirstSecond.csproj|solutionrelative:ppoisfirstsecond\\ppoisfirstsecond.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754FC069-D67B-A9D7-50A1-8D1CA196D8F1}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{754FC069-D67B-A9D7-50A1-8D1CA196D8F1}|C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\coverletArgs.runsettings||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{754FC069-D67B-A9D7-50A1-8D1CA196D8F1}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{754FC069-D67B-A9D7-50A1-8D1CA196D8F1}|solutionrelative:coverletArgs.runsettings||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EnglishRussianDictionary.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\PPOISFirstSecond\\EnglishRussianDictionary.cs",
+              "RelativeDocumentMoniker": "PPOISFirstSecond\\EnglishRussianDictionary.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\PPOISFirstSecond\\EnglishRussianDictionary.cs",
+              "RelativeToolTip": "PPOISFirstSecond\\EnglishRussianDictionary.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAIwMoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T14:30:22.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\PPOISFirstSecond\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "PPOISFirstSecond\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\PPOISFirstSecond\\AppDbContext.cs",
+              "RelativeToolTip": "PPOISFirstSecond\\AppDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T08:59:05.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IReadFromDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\PPOISFirstSecond\\IReadFromDatabase.cs",
+              "RelativeDocumentMoniker": "PPOISFirstSecond\\IReadFromDatabase.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\PPOISFirstSecond\\IReadFromDatabase.cs",
+              "RelativeToolTip": "PPOISFirstSecond\\IReadFromDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T09:24:02.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IWriteToDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\PPOISFirstSecond\\IWriteToDatabase.cs",
+              "RelativeDocumentMoniker": "PPOISFirstSecond\\IWriteToDatabase.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\PPOISFirstSecond\\IWriteToDatabase.cs",
+              "RelativeToolTip": "PPOISFirstSecond\\IWriteToDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T09:28:56.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\PPOISFirstSecond\\Program.cs",
+              "RelativeDocumentMoniker": "PPOISFirstSecond\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\PPOISFirstSecond\\Program.cs",
+              "RelativeToolTip": "PPOISFirstSecond\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T14:26:53.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReadFromDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\PPOISFirstSecond\\ReadFromDatabase.cs",
+              "RelativeDocumentMoniker": "PPOISFirstSecond\\ReadFromDatabase.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\PPOISFirstSecond\\ReadFromDatabase.cs",
+              "RelativeToolTip": "PPOISFirstSecond\\ReadFromDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T09:16:04.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WordPair.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\PPOISFirstSecond\\WordPair.cs",
+              "RelativeDocumentMoniker": "PPOISFirstSecond\\WordPair.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\PPOISFirstSecond\\WordPair.cs",
+              "RelativeToolTip": "PPOISFirstSecond\\WordPair.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T09:01:06.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WriteToDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\PPOISFirstSecond\\WriteToDatabase.cs",
+              "RelativeDocumentMoniker": "PPOISFirstSecond\\WriteToDatabase.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\PPOISFirstSecond\\WriteToDatabase.cs",
+              "RelativeToolTip": "PPOISFirstSecond\\WriteToDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T09:30:10.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyLibrary.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\MyLibrary.Tests\\MyLibrary.Tests.csproj",
+              "RelativeDocumentMoniker": "MyLibrary.Tests\\MyLibrary.Tests.csproj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\MyLibrary.Tests\\MyLibrary.Tests.csproj",
+              "RelativeToolTip": "MyLibrary.Tests\\MyLibrary.Tests.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAMwBkAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-14T11:55:26.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\MyLibrary.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\MyLibrary.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "MyLibrary.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAP0BAAAAAAAAAAAAwBACAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T11:53:49.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IInsert.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\PPOISFirstSecond\\IInsert.cs",
+              "RelativeDocumentMoniker": "PPOISFirstSecond\\IInsert.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\PPOISFirstSecond\\IInsert.cs",
+              "RelativeToolTip": "PPOISFirstSecond\\IInsert.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T08:13:35.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\MyLibrary.Tests\\coveragereport\\main.js",
+              "RelativeDocumentMoniker": "MyLibrary.Tests\\coveragereport\\main.js",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\MyLibrary.Tests\\coveragereport\\main.js",
+              "RelativeToolTip": "MyLibrary.Tests\\coveragereport\\main.js",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-14T16:29:24.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "icon_plus_dark.svg",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\MyLibrary.Tests\\coveragereport\\icon_plus_dark.svg",
+              "RelativeDocumentMoniker": "MyLibrary.Tests\\coveragereport\\icon_plus_dark.svg",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\MyLibrary.Tests\\coveragereport\\icon_plus_dark.svg",
+              "RelativeToolTip": "MyLibrary.Tests\\coveragereport\\icon_plus_dark.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKTSURBVDhPjVNLSFRRGP7unTsz9w75uOaMZlMNpo1aFFJRodRGN7UwatMiKgga3JgVRBSNSA8RooUFLRycCCpc9ITIFi0EW\u002BhCW/gONYUcxplsQL13nKv3dM6ZGV\u002BE9N37c\u002B455/\u002B\u002B/7s/5whYA7/fP5L63BSCIDxvbGxsAiEktZQEE6Brm6K1tXWS5TU0NNQyjsiZKQgCBgBChQ2Q\u002BfswpytgDLmg9zihD9XBNJfhcrlstPoeqlVPRS6uCBDy1broLnN29PkxPeaFFmpC79gOdEu9sB8KQRt\u002Bz/NUVbUGAoGpJIfc5j2gZIuv3fam/sCNGrdjGLGwE23hR\u002BiMeBCKAbXlOTgfr0VW9QfqD4iEZ5BIJNAWDI5yB75X0tXqwrc1JZk90MKVUEq/4UplFc4W5UKwiHjaO4tx90NWiYfT5cQuj4dRITLrZfn9104XtOD3\u002BE4z7/BrqIoKZ4YM37E8XNifA4vdiuCIApPzWY9Wmy9h6UfOpd13t89FstEceyF2PJlAfNHkm6y6xSbxcTASpyuMyFT4NoeI6PV6mzEvvIy0oO\u002BXPVGULaMs186jVLVil0zzF\u002BI4ki\u002BnqjP\u002BGgemrp0Z\u002BHn8T0d0nyrOTky\u002B8x0tNoxE0iZrcSqXz5lAcroCcXkeBcGpyzcnowRTDk9xoDuEmbkE5vRlfB6cRcWzIXibv\u002BNTf5ST0y7SEBa6MGIaOFje2VUnZSgPTFECMZM9YCeLde6cdwvuVLlXrVMFWXGAHqRRaUlDezyEic6tlbFBbW/oS8nHbf0RDZIooDDLipPeTJwozIJJH4EIoG/y1/6Fe/5bj6lFousa0WjoWjoWiLYhGNidWHcXDNhOsVGWFSg0ZCUdDigbIo11Zv73Oq8C\u002BAsr5V2IWWNA0gAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-09-14T16:29:19.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "coverage.cobertura.xml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\MyLibrary.Tests\\TestResults\\3f17477f-03f8-475b-8bc1-4f612125a5b4\\coverage.cobertura.xml",
+              "RelativeDocumentMoniker": "MyLibrary.Tests\\TestResults\\3f17477f-03f8-475b-8bc1-4f612125a5b4\\coverage.cobertura.xml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\MyLibrary.Tests\\TestResults\\3f17477f-03f8-475b-8bc1-4f612125a5b4\\coverage.cobertura.xml",
+              "RelativeToolTip": "MyLibrary.Tests\\TestResults\\3f17477f-03f8-475b-8bc1-4f612125a5b4\\coverage.cobertura.xml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-09-14T16:27:14.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAPwUAAAAAAAAAAAWwAcVAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-09-14T09:41:23.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PPOISFirstSecond.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\PPOISFirstSecond\\PPOISFirstSecond.csproj",
+              "RelativeDocumentMoniker": "PPOISFirstSecond\\PPOISFirstSecond.csproj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\PPOISFirstSecond\\PPOISFirstSecond.csproj",
+              "RelativeToolTip": "PPOISFirstSecond\\PPOISFirstSecond.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-14T11:29:03.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "coverletArgs.runsettings",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\coverletArgs.runsettings",
+              "RelativeDocumentMoniker": "coverletArgs.runsettings",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PPOISFirstSecond\\coverletArgs.runsettings",
+              "RelativeToolTip": "coverletArgs.runsettings",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-14T15:11:16.296Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
