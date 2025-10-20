@@ -1,0 +1,73 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace PPOISSecondFirst
+{
+    // 1. KFC
+    public class KFC : Institution<FastFood, Food>
+    {
+        public Meneger _meneger { get; set; }
+        public override string Description { get; set; }
+        public override FastFood Type { get; set; }
+        public override double Mark { get; set; }
+        public override IEnumerable<Food> Menu { get; set; }
+        public override Adress Adress { get; set; }
+        public double countOfMetteng { get; set; }
+        private readonly KFCService _service;
+
+        public KFC(IEnumerable<Food> menu, Adress adress, Meneger meneger, KFCService service)
+        {
+            Menu = menu;
+            Adress = adress;
+            _meneger = meneger;
+            _service = service;
+        }
+    }
+
+    public class KFCService
+    {
+        private KFC _kfc;
+        public KFCService(KFC kfc) => _kfc = kfc;
+        public void AddChickenBucket(Food chicken) => _kfc.Menu = _kfc.Menu.Append(chicken);
+        public double CalculateColonelRating() => _kfc.Mark * 1.1;
+    }
+
+    // 2. BurgerKing
+   
+
+   
+
+    // 3. Subway
+    
+
+    // 4. PizzaHut
+    
+
+    // 5. Starbucks
+    
+
+    // 6. DunkinDonuts
+    
+    // 7. TacoBell
+    
+    // 8. Dominos
+    
+    // 9. BaskinRobbins
+    
+    // 10. Chipotle
+    
+    // 11. PandaExpress
+    
+
+    // 12. FiveGuys
+   
+
+    // 13. ChickfilA
+    
+
+    // 14. Wendy's
+    
+
+   
+}
