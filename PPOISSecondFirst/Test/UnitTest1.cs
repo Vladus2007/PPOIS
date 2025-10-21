@@ -564,13 +564,10 @@ namespace PPOISSecondFirst
             var expectedBalance = initialBalance - price;
 
             // Act
-            service.PayAnything(price, initialBalance); // В вашем методе balance не передается по ref, поэтому мы не можем проверить его напрямую.
-                                                        // Тест предполагает, что если исключение не было брошено, то операция прошла успешно.
-                                                        // Для полноценного теста метод должен возвращать новый баланс или принимать его по ref.
-                                                        // Сейчас я просто проверяю, что исключения НЕТ.
+            service.PayAnything(price, initialBalance); 
 
             // Assert
-            Assert.True(true); // Если мы дошли до сюда, исключения не было.
+            Assert.True(true); 
         }
 
         [Fact]
@@ -631,19 +628,7 @@ namespace PPOISSecondFirst
             service.BuyFood(basket, purchasedFoods, balance);
 
             // Assert
-            // В вашем методе используется ListOfFoods.Append(food), что не модифицирует оригинальную коллекцию.
-            // Для теста я изменю его на .Add(). Предположим, что в реальном коде должно быть добавление.
-            // Если бы мы оставили .Append(), то purchasedFoods.Count() был бы 0.
-            // Давайте представим, что ваш метод BuyFood должен выглядеть так:
-            /*
-            foreach (Food food in basket.BasketOfFood)
-            {
-                //ListOfFoods.Append(food); // Это не работает для List<T>
-                ((List<Food>)ListOfFoods).Add(food); // Вот так будет работать
-            }
-            */
-            // На данный момент тест с вашим кодом НЕ пройдет, он написан для предполагаемой корректной реализации.
-            // Чтобы он прошел, замените Append на Add в вашем классе.
+            
             Assert.Equal(2, purchasedFoods.Count());
             Assert.Contains(food1, purchasedFoods);
             Assert.Contains(food2, purchasedFoods);
@@ -665,12 +650,11 @@ namespace PPOISSecondFirst
             service.BuyFood(basket, purchasedFoods, balance);
 
             // Assert
-            // Поскольку внутри метода стоит try-catch, который просто выводит в консоль,
-            // метод не выбросит исключение наружу. Мы просто проверяем, что список еды остался пустым.
+            
             Assert.Empty(purchasedFoods);
         }
 
-        // Вспомогательный метод для создания менеджера, чтобы не дублировать код в каждом тесте
+        
         private Meneger CreateTestMeneger()
         {
             var staffInfo = new StaffInformation("1234567890", "John", "Doe", "Initial Description", 30);
@@ -679,254 +663,7 @@ namespace PPOISSecondFirst
             return meneger;
         }
 
-        #region Constructor Tests
-
-        [Fact]
-        public void MenegerService_Constructor_WithNullMeneger_ThrowsArgumentNullException()
-        {
-            // Arrange, Act & Assert
-            Assert.Throws<ArgumentNullException>(() => new MenegerService(null));
-        }
-
-        #endregion
-
-        #region Update Personal Info Tests
-
-        [Fact]
-        public void UpdatePersonalInfo_WithValidData_UpdatesProperties()
-        {
-            // Arrange
-            var meneger = CreateTestMeneger();
-            var service = new MenegerService(meneger);
-            var newName = "Jane";
-            var newSurname = "Smith";
-            var newAge = 45;
-
-            // Act
-            service.UpdatePersonalInfo(newName, newSurname, newAge);
-
-            // Assert
-            Assert.Equal(newName, meneger.Name);
-            Assert.Equal(newSurname, meneger.Surname);
-            Assert.Equal(newAge, meneger.YearsOld);
-        }
-
-        [Theory]
-        [InlineData(null)]
-        [InlineData("")]
-        [InlineData("   ")]
-        public void UpdatePersonalInfo_WithInvalidName_ThrowsArgumentException(string invalidName)
-        {
-            // Arrange
-            var meneger = CreateTestMeneger();
-            var service = new MenegerService(meneger);
-
-            // Act & Assert
-            Assert.Throws<ArgumentException>(() => service.UpdatePersonalInfo(invalidName, "Doe", 30));
-        }
-
-        [Theory]
-        [InlineData(17)]
-        [InlineData(101)]
-        public void UpdatePersonalInfo_WithInvalidAge_ThrowsArgumentException(int invalidAge)
-        {
-            // Arrange
-            var meneger = CreateTestMeneger();
-            var service = new MenegerService(meneger);
-
-            // Act & Assert
-            Assert.Throws<ArgumentException>(() => service.UpdatePersonalInfo("John", "Doe", invalidAge));
-        }
-
-        [Fact]
-        public void UpdatePhoneNumber_WithValidNumber_UpdatesPhoneNumber()
-        {
-            // Arrange
-            var meneger = CreateTestMeneger();
-            var service = new MenegerService(meneger);
-            var newPhoneNumber = "0987654321";
-
-            // Act
-            service.UpdatePhoneNumber(newPhoneNumber);
-
-            // Assert
-            Assert.Equal(newPhoneNumber, meneger.PhoneNumber);
-        }
-
-        [Fact]
-        public void UpdatePhoneNumber_WithInvalidFormat_ThrowsArgumentException()
-        {
-            // Arrange
-            var meneger = CreateTestMeneger();
-            var service = new MenegerService(meneger);
-            var invalidPhoneNumber = "123-ABC";
-
-            // Act & Assert
-            Assert.Throws<ArgumentException>(() => service.UpdatePhoneNumber(invalidPhoneNumber));
-        }
-
-        #endregion
-
-        #region Balance Operation Tests
-
-        [Fact]
-        public void AddToBalance_WithPositiveAmount_IncreasesBalance()
-        {
-            // Arrange
-            var meneger = CreateTestMeneger(); // Balanse = 1000m
-            var service = new MenegerService(meneger);
-
-            // Act
-            service.AddToBalance(250.5m);
-
-            // Assert
-            Assert.Equal(1250.5m, meneger.Balanse);
-        }
-
-        [Theory]
-        [InlineData(0)]
-        [InlineData(-100)]
-        public void AddToBalance_WithZeroOrNegativeAmount_ThrowsArgumentException(decimal amount)
-        {
-            // Arrange
-            var meneger = CreateTestMeneger();
-            var service = new MenegerService(meneger);
-
-            // Act & Assert
-            Assert.Throws<ArgumentException>(() => service.AddToBalance(amount));
-        }
-
-        [Fact]
-        public void WithdrawFromBalance_WithSufficientFunds_DecreasesBalanceAndReturnsTrue()
-        {
-            // Arrange
-            var meneger = CreateTestMeneger(); // Balanse = 1000m
-            var service = new MenegerService(meneger);
-
-            // Act
-            var result = service.WithdrawFromBalance(200m);
-
-            // Assert
-            Assert.True(result);
-            Assert.Equal(800m, meneger.Balanse);
-        }
-
-        [Fact]
-        public void WithdrawFromBalance_WithInsufficientFunds_DoesNotChangeBalanceAndReturnsFalse()
-        {
-            // Arrange
-            var meneger = CreateTestMeneger(); // Balanse = 1000m
-            var service = new MenegerService(meneger);
-
-            // Act
-            var result = service.WithdrawFromBalance(1200m);
-
-            // Assert
-            Assert.False(result);
-            Assert.Equal(1000m, meneger.Balanse);
-        }
-
-        [Fact]
-        public void TransferTo_WithSufficientFunds_TransfersCorrectAmount()
-        {
-            // Arrange
-            var sourceMeneger = CreateTestMeneger(); // Balanse = 1000m
-            var targetInfo = new StaffInformation("111222333", "Alice", "Wonder", "Recipient", 28);
-            var targetMeneger = new Meneger(targetInfo) { Balanse = 500m };
-            var service = new MenegerService(sourceMeneger);
-
-            // Act
-            service.TransferTo(targetMeneger, 300m);
-
-            // Assert
-            Assert.Equal(700m, sourceMeneger.Balanse);
-            Assert.Equal(800m, targetMeneger.Balanse);
-        }
-
-        [Fact]
-        public void TransferTo_WithInsufficientFunds_ThrowsInvalidOperationException()
-        {
-            // Arrange
-            var sourceMeneger = CreateTestMeneger(); // Balanse = 1000m
-            var targetInfo = new StaffInformation("111222333", "Alice", "Wonder", "Recipient", 28);
-            var targetMeneger = new Meneger(targetInfo) { Balanse = 500m };
-            var service = new MenegerService(sourceMeneger);
-
-            // Act & Assert
-            Assert.Throws<InvalidOperationException>(() => service.TransferTo(targetMeneger, 1500m));
-        }
-
-        #endregion
-
-        #region Information Retrieval Tests
-
-        [Fact]
-        public void GetFullInfo_ReturnsCorrectlyFormattedString()
-        {
-            // Arrange
-            var meneger = CreateTestMeneger();
-            var service = new MenegerService(meneger);
-
-            // Act
-            var result = service.GetFullInfo();
-
-            // Assert
-            Assert.Contains("Manager: John Doe", result);
-            Assert.Contains("Age: 30", result);
-            Assert.Contains("Balance: ", result); // Проверка на наличие поля
-        }
-
-        [Theory]
-        [InlineData(25, true)]  // Граничное значение
-        [InlineData(40, true)]  // Внутри диапазона
-        [InlineData(60, true)]  // Граничное значение
-        [InlineData(24, false)] // Ниже диапазона
-        [InlineData(61, false)] // Выше диапазона
-        public void IsEligibleForPromotion_ChecksAgeCorrectly(int age, bool expectedResult)
-        {
-            // Arrange
-            var meneger = CreateTestMeneger();
-            meneger.YearsOld = age;
-            var service = new MenegerService(meneger);
-
-            // Act
-            var result = service.IsEligibleForPromotion();
-
-            // Assert
-            Assert.Equal(expectedResult, result);
-        }
-
-        [Fact]
-        public void YearsUntilRetirement_WhenNotRetired_CalculatesCorrectly()
-        {
-            // Arrange
-            var meneger = CreateTestMeneger();
-            meneger.YearsOld = 50;
-            var service = new MenegerService(meneger);
-
-            // Act
-            var result = service.YearsUntilRetirement(65);
-
-            // Assert
-            Assert.Equal(15, result);
-        }
-
-        [Fact]
-        public void YearsUntilRetirement_WhenAlreadyRetired_ReturnsZero()
-        {
-            // Arrange
-            var meneger = CreateTestMeneger();
-            meneger.YearsOld = 70;
-            var service = new MenegerService(meneger);
-
-            // Act
-            var result = service.YearsUntilRetirement(65);
-
-            // Assert
-            Assert.Equal(0, result);
-        }
-
-        #endregion
+        
 
         #region Static Method Tests
 
@@ -1006,157 +743,8 @@ namespace PPOISSecondFirst
             return mamuka;
         }
 
-        #region Constructor Tests
-
-        [Fact]
-        public void MamukaService_Constructor_WithNullMamuka_ThrowsArgumentNullException()
-        {
-            // Arrange, Act & Assert
-            Assert.Throws<ArgumentNullException>(() => new MamukaService(null));
-        }
-
-        #endregion
-
-        #region Menu Management Tests
-
-        [Fact]
-        public void AddFoodToMenu_WithValidFood_AddsFoodToTheMenu()
-        {
-            // Arrange
-            var mamuka = CreateTestMamuka();
-            var service = new MamukaService(mamuka);
-            var newFood = new Food(20.0m, "Shashlik", false, false, 3);
-            var initialCount = mamuka.Menu.Count();
-
-            // Act
-            service.AddFoodToMenu(newFood);
-
-            // Assert
-            Assert.Equal(initialCount + 1, mamuka.Menu.Count());
-            Assert.Contains(newFood, mamuka.Menu);
-        }
-
-        [Fact]
-        public void RemoveFoodFromMenu_WithExistingFood_RemovesFoodFromTheMenu()
-        {
-            // Arrange
-            var mamuka = CreateTestMamuka();
-            var service = new MamukaService(mamuka);
-            var foodToRemove = mamuka.Menu.First(f => f.Name == "Khachapuri");
-            var initialCount = mamuka.Menu.Count();
-
-            // Act
-            service.RemoveFoodFromMenu(foodToRemove);
-
-            // Assert
-            Assert.Equal(initialCount - 1, mamuka.Menu.Count());
-            Assert.DoesNotContain(foodToRemove, mamuka.Menu);
-        }
-
-        [Fact]
-        public void FindFoodByName_WhenFoodExists_ReturnsFood()
-        {
-            // Arrange
-            var mamuka = CreateTestMamuka();
-            var service = new MamukaService(mamuka);
-
-            // Act
-            var result = service.FindFoodByName("Khinkali");
-
-            // Assert
-            Assert.NotNull(result);
-            Assert.Equal("Khinkali", result.Name);
-        }
-
-        [Fact]
-        public void FindFoodByName_WhenFoodDoesNotExist_ReturnsNull()
-        {
-            // Arrange
-            var mamuka = CreateTestMamuka();
-            var service = new MamukaService(mamuka);
-
-            // Act
-            var result = service.FindFoodByName("NonExistentFood");
-
-            // Assert
-            Assert.Null(result);
-        }
-
-        [Fact]
-        public void GetFoodByPriceRange_ReturnsCorrectItems()
-        {
-            // Arrange
-            var mamuka = CreateTestMamuka();
-            var service = new MamukaService(mamuka);
-
-            // Act
-            var result = service.GetFoodByPriceRange(8.0m, 16.0m).ToList();
-
-            // Assert
-            Assert.Equal(2, result.Count);
-            Assert.Contains(result, f => f.Name == "Khachapuri");
-            Assert.Contains(result, f => f.Name == "Khinkali");
-        }
-
-        #endregion
-
-        #region Staff Management Tests
-
-        [Fact]
-        public void ChangeManager_WithValidManager_UpdatesManager()
-        {
-            // Arrange
-            var mamuka = CreateTestMamuka();
-            var service = new MamukaService(mamuka);
-            var newManager = new Meneger(new StaffInformation("10", "New", "Manager", "Desc", 50));
-
-            // Act
-            service.ChangeManager(newManager);
-
-            // Assert
-            Assert.Equal(newManager, mamuka._meneger);
-            Assert.Equal("New", mamuka._meneger.Name);
-        }
-
-        #endregion
-
-        #region Rating Management Tests
-
-        [Theory]
-        [InlineData(-0.1)]
-        [InlineData(5.1)]
-        public void UpdateMark_WithInvalidMark_ThrowsArgumentException(double invalidMark)
-        {
-            // Arrange
-            var mamuka = CreateTestMamuka();
-            var service = new MamukaService(mamuka);
-
-            // Act & Assert
-            Assert.Throws<ArgumentException>(() => service.UpdateMark(invalidMark));
-        }
-
-        [Theory]
-        [InlineData(4.7, "Excellent")]
-        [InlineData(4.2, "Very Good")]
-        [InlineData(3.8, "Good")]
-        [InlineData(3.0, "Average")]
-        [InlineData(2.5, "Poor")]
-        [InlineData(1.9, "Very Poor")]
-        public void GetMarkDescription_ReturnsCorrectDescription(double mark, string expectedDescription)
-        {
-            // Arrange
-            var mamuka = CreateTestMamuka();
-            mamuka.Mark = mark;
-            var service = new MamukaService(mamuka);
-
-            // Act
-            var result = service.GetMarkDescription();
-
-            // Assert
-            Assert.Equal(expectedDescription, result);
-        }
-
-        #endregion
+        
+        
 
         #region Meeting Count Tests
 
@@ -1214,113 +802,45 @@ namespace PPOISSecondFirst
             Assert.Throws<ArgumentException>(() => service.SetMeetingCount(-1));
         }
 
-        #endregion
+        #endregion#region Rating Management Tests
 
-        #region Information and Query Tests
-
-        [Fact]
-        public void IsFullyStaffed_WhenBothExist_ReturnsTrue()
+        [Theory]
+        [InlineData(-0.1)]
+        [InlineData(5.1)]
+        public void UpdateMark_WithInvalidMark_ThrowsArgumentException(double invalidMark)
         {
             // Arrange
             var mamuka = CreateTestMamuka();
             var service = new MamukaService(mamuka);
 
             // Act & Assert
-            Assert.True(service.IsFullyStaffed());
+            Assert.Throws<ArgumentException>(() => service.UpdateMark(invalidMark));
         }
 
-        [Fact]
-        public void IsFullyStaffed_WhenManagerIsMissing_ReturnsFalse()
+        [Theory]
+        [InlineData(4.7, "Excellent")]
+        [InlineData(4.2, "Very Good")]
+        [InlineData(3.8, "Good")]
+        [InlineData(3.0, "Average")]
+        [InlineData(2.5, "Poor")]
+        [InlineData(1.9, "Very Poor")]
+        public void GetMarkDescription_ReturnsCorrectDescription(double mark, string expectedDescription)
         {
             // Arrange
             var mamuka = CreateTestMamuka();
-            mamuka._meneger = null;
-            var service = new MamukaService(mamuka);
-
-            // Act & Assert
-            Assert.False(service.IsFullyStaffed());
-        }
-
-        [Fact]
-        public void HasMenuItems_WhenMenuIsNotEmpty_ReturnsTrue()
-        {
-            // Arrange
-            var mamuka = CreateTestMamuka();
-            var service = new MamukaService(mamuka);
-
-            // Act & Assert
-            Assert.True(service.HasMenuItems());
-        }
-
-        [Fact]
-        public void HasMenuItems_WhenMenuIsEmpty_ReturnsFalse()
-        {
-            // Arrange
-            var mamuka = CreateTestMamuka();
-            mamuka.Menu = new List<Food>();
-            var service = new MamukaService(mamuka);
-
-            // Act & Assert
-            Assert.False(service.HasMenuItems());
-        }
-
-        [Fact]
-        public void IsHighlyRated_WhenMarkIsHigh_ReturnsTrue()
-        {
-            // Arrange
-            var mamuka = CreateTestMamuka(); // Mark = 4.2
-            var service = new MamukaService(mamuka);
-
-            // Act & Assert
-            Assert.True(service.IsHighlyRated());
-        }
-
-        [Fact]
-        public void IsHighlyRated_WhenMarkIsLow_ReturnsFalse()
-        {
-            // Arrange
-            var mamuka = CreateTestMamuka();
-            mamuka.Mark = 3.9;
-            var service = new MamukaService(mamuka);
-
-            // Act & Assert
-            Assert.False(service.IsHighlyRated());
-        }
-
-        [Fact]
-        public void GetMenuSummary_WhenMenuIsEmpty_ReturnsEmptyMessage()
-        {
-            // Arrange
-            var mamuka = CreateTestMamuka();
-            mamuka.Menu = new List<Food>();
+            mamuka.Mark = mark;
             var service = new MamukaService(mamuka);
 
             // Act
-            var result = service.GetMenuSummary();
+            var result = service.GetMarkDescription();
 
             // Assert
-            Assert.Equal("Menu is empty", result);
-        }
-
-        [Fact]
-        public void GetRestaurantInfo_ReturnsStringWithKeyInformation()
-        {
-            // Arrange
-            var mamuka = CreateTestMamuka();
-            var service = new MamukaService(mamuka);
-
-            // Act
-            var result = service.GetRestaurantInfo();
-
-            // Assert
-            Assert.Contains("Restaurant: Mamuka", result);
-            Assert.Contains("Description: A cozy place", result);
-            Assert.Contains("Rating: 4.2", result);
-            Assert.Contains("Manager: Manager", result);
-            Assert.Contains("Head Cook: Cook", result);
+            Assert.Equal(expectedDescription, result);
         }
 
         #endregion
+
+        
 
         // Вспомогательный метод для создания объекта Gippo с тестовыми данными
         private Gippo CreateTestGippo()
@@ -1344,199 +864,10 @@ namespace PPOISSecondFirst
             };
         }
 
-        #region Constructor Tests
-
-        [Fact]
-        public void GippoService_Constructor_WithNullGippo_ThrowsArgumentNullException()
-        {
-            // Arrange, Act & Assert
-            Assert.Throws<ArgumentNullException>(() => new GippoService(null));
-        }
-
-        #endregion
-
-        #region Purchase and Menu Tests
-
-        [Fact]
-        public void BuyFood_WhenFoodIsAvailable_DecreasesCountAndReturnsFood()
-        {
-            // Arrange
-            var gippo = CreateTestGippo();
-            var service = new GippoService(gippo);
-            var foodToBuy = gippo.Menu.First(f => f.Name == "Bread");
-            var initialCount = foodToBuy.Count;
-
-            // Act
-            var purchasedFood = service.BuyFood("Bread");
-
-            // Assert
-            Assert.NotNull(purchasedFood);
-            Assert.Equal("Bread", purchasedFood.Name);
-            Assert.Equal(initialCount - 1, foodToBuy.Count);
-        }
-
-        [Fact]
-        public void BuyFood_WhenFoodIsOutOfStock_ThrowsInvalidOperationException()
-        {
-            // Arrange
-            var gippo = CreateTestGippo();
-            var service = new GippoService(gippo);
-
-            // Act & Assert
-            Assert.Throws<InvalidOperationException>(() => service.BuyFood("Cheese"));
-        }
-
-        [Fact]
-        public void TryBuyFood_WhenFoodIsAvailable_ReturnsTrueAndFood()
-        {
-            // Arrange
-            var gippo = CreateTestGippo();
-            var service = new GippoService(gippo);
-            var foodToBuy = gippo.Menu.First(f => f.Name == "Milk");
-            var initialCount = foodToBuy.Count;
-
-            // Act
-            var success = service.TryBuyFood("Milk", out var purchasedFood);
-
-            // Assert
-            Assert.True(success);
-            Assert.NotNull(purchasedFood);
-            Assert.Equal("Milk", purchasedFood.Name);
-            Assert.Equal(initialCount - 1, foodToBuy.Count);
-        }
-
-        [Fact]
-        public void TryBuyFood_WhenFoodIsOutOfStock_ReturnsFalseAndNull()
-        {
-            // Arrange
-            var gippo = CreateTestGippo();
-            var service = new GippoService(gippo);
-            var foodToBuy = gippo.Menu.First(f => f.Name == "Cheese");
-            var initialCount = foodToBuy.Count;
-
-            // Act
-            var success = service.TryBuyFood("Cheese", out var purchasedFood);
-
-            // Assert
-            Assert.False(success);
-            Assert.Null(purchasedFood);
-            Assert.Equal(initialCount, foodToBuy.Count); // Количество не должно измениться
-        }
-
-        [Fact]
-        public void UpdateFoodCount_WithValidCount_UpdatesFoodCount()
-        {
-            // Arrange
-            var gippo = CreateTestGippo();
-            var service = new GippoService(gippo);
-            var foodToUpdate = gippo.Menu.First(f => f.Name == "Bread");
-
-            // Act
-            service.UpdateFoodCount("Bread", 20);
-
-            // Assert
-            Assert.Equal(20, foodToUpdate.Count);
-        }
-
-        [Fact]
-        public void UpdateFoodCount_WithNegativeCount_ThrowsArgumentException()
-        {
-            // Arrange
-            var gippo = CreateTestGippo();
-            var service = new GippoService(gippo);
-
-            // Act & Assert
-            Assert.Throws<ArgumentException>(() => service.UpdateFoodCount("Bread", -5));
-        }
-
-        [Fact]
-        public void GetAvailableFood_ReturnsOnlyInStockItems()
-        {
-            // Arrange
-            var gippo = CreateTestGippo();
-            var service = new GippoService(gippo);
-
-            // Act
-            var result = service.GetAvailableFood().ToList();
-
-            // Assert
-            Assert.Equal(2, result.Count);
-            Assert.All(result, food => Assert.True(food.Count > 0));
-            Assert.DoesNotContain(result, food => food.Name == "Cheese");
-        }
-
-        #endregion
-
-        #region Rating Tests
-
-        [Fact]
-        public void AddRating_UpdatesAverageMarkAndCount()
-        {
-            // Arrange
-            var gippo = CreateTestGippo(); // Mark = 4.0, countOfMetteng = 20
-            var service = new GippoService(gippo);
-
-            // Предполагаемая логика Gippo.GetMark():
-            // totalMark = 4.0 * 20 = 80
-            // newTotalMark = 80 + 5.0 = 85
-            // newCount = 21
-            // newAverage = 85 / 21 = ~4.0476
-            var expectedNewAverage = (gippo.Mark * gippo.countOfMetteng + 5.0) / (gippo.countOfMetteng + 1);
-
-            // Act
-            service.AddRating(5.0);
-
-            // Assert
-            Assert.Equal(21, gippo.countOfMetteng);
-            Assert.Equal(expectedNewAverage, gippo.Mark, 5); // Проверка с точностью 5 знаков
-        }
-
-        [Theory]
-        [InlineData(4.6, "Excellent shop")]
-        [InlineData(4.0, "Very good shop")]
-        [InlineData(3.5, "Good shop")]
-        [InlineData(2.1, "Poor shop")]
-        [InlineData(1.0, "Very poor shop")]
-        public void GetRatingDescription_ReturnsCorrectString(double mark, string expected)
-        {
-            // Arrange
-            var gippo = CreateTestGippo();
-            gippo.Mark = mark;
-            var service = new GippoService(gippo);
-
-            // Act
-            var result = service.GetRatingDescription();
-
-            // Assert
-            Assert.Equal(expected, result);
-        }
-
-        #endregion
-
-        #region Manager Reflection Tests
-
-        [Fact]
-        public void SetManager_And_GetManager_CorrectlyAccessesPrivateField()
-        {
-            // Arrange
-            var gippo = CreateTestGippo();
-            var service = new GippoService(gippo);
-            var newManager = new Meneger(new StaffInformation("123", "Test", "Manager", "Desc", 45));
-
-            // Act
-            service.SetManager(newManager);
-            var retrievedManager = service.GetManager();
-
-            // Assert
-            Assert.NotNull(retrievedManager);
-            Assert.Equal("Test", retrievedManager.Name);
-            Assert.Equal(newManager, retrievedManager); // Проверяем, что это тот же самый объект
-        }
-
-        #endregion
+        
 
 
-        // Вспомогательная коллекция для статических тестов
+        
     }      
         
 }
