@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PPOISSecondFirst
 {
-    public class IceCreamShop
+    public class IceCreamShop:Type
     {
     }
 }
