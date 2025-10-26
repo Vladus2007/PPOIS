@@ -13,7 +13,13 @@ namespace PPOISSecondFirst
         {
             staff.Balanse += staff.Salary;
         }
+    
 
-
+    }
+    public class StaffServiceException : Exception
+    {
+    public StaffServiceException() { }
+    public StaffServiceException(string message) : base(message) { }
+    public StaffServiceException(string message, Exception inner) : base(message, inner) { }
     }
 }
