@@ -8,9 +8,6 @@ namespace PPOISSecondFirst
 {
     public class UserService:IUserService
     {
-
-
-
         public void BuyFood(Basket basket, IEnumerable<Food> ListOfFoods,decimal balance)
         {
             try
