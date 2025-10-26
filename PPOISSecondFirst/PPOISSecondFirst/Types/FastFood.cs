@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PPOISSecondFirst
 {
-    public class FastFood:Type
+    public class FastFood:Types
     {
     }
 }
