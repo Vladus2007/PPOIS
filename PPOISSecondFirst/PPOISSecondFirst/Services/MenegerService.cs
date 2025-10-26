@@ -279,6 +279,36 @@ namespace PPOISSecondFirst
             }
         }
     }
+    public class ManagerServiceException : Exception
+{
+    public ManagerServiceException() { }
+    public ManagerServiceException(string message) : base(message) { }
+    public ManagerServiceException(string message, Exception inner) : base(message, inner) { }
+}
+
+public class ManagerValidationException : ManagerServiceException
+{
+    public string PropertyName { get; }
+
+    public ManagerValidationException(string propertyName, string message) 
+        : base(message)
+    {
+        PropertyName = propertyName;
+    }
+}
+
+public class ManagerNotFoundException : ManagerServiceException
+{
+    public string ManagerName { get; }
+    public string ManagerSurname { get; }
+
+    public ManagerNotFoundException(string name, string surname) 
+        : base($"Менеджер '{name} {surname}' не найден")
+    {
+        ManagerName = name;
+        ManagerSurname = surname;
+    }
+}
     public class InvalidManagerDataException : ManagerValidationException
 {
     public InvalidManagerDataException(string propertyName, string message) 
