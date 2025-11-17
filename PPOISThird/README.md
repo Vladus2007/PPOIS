@@ -1,24 +1,93 @@
+# 🎨 Art Gallery Management System
 
-## 🧪 Testing
+Система управления художественной галереей с полным циклом работы: от учета произведений искусства до организации выставок и финансовых операций.
 
-- 100% test coverage with xUnit
-- Comprehensive unit and integration tests
-- Mock-based testing for all components
+## 📁 Структура проекта
 
-## 🛠️ Technology Stack
+### 🏗️ Основные классы системы
 
-- .NET 8.0
-- xUnit for testing
-- Domain-Driven Design principles
-- Clean Architecture patterns
+#### 🎭 **Core Domain (Ядро системы)**
+- **Artwork** - Произведение искусства
+- **Artist** - Художник  
+- **Exhibition** - Выставка
+- **Gallery** - Галерея
+- **Dimensions** - Размеры произведения
+- **ArtMovement** - Художественное движение
+- **Material** - Материалы произведения
 
-## 📊 Current Coverage
+#### 💰 **Financial System (Финансы)**
+- **FinancialAccount** - Финансовый счет
+- **Transaction** - Транзакция
+- **Invoice** - Счет
+- **Budget** - Бюджет
+- **PaymentMethod** - Способ оплаты
 
-- **Line Coverage**: 86.7%
-- **Branch Coverage**: 100%
-- **Total Classes**: 62
-- **Covered Lines**: 280/340
+#### 🔒 **Security Systems (Безопасность)**
+- **SecuritySystem** - Система безопасности
+- **AccessCard** - Пропуск
+- **SecurityGuard** - Охранник
 
----
+#### 👥 **Visitor Management (Посетители)**
+- **Visitor** - Посетитель
+- **Ticket** - Билет
+- **Membership** - Членство
 
-*System designed for scalable art gallery management with enterprise-grade security and financial controls.*
+#### 👨‍💼 **Personal Management (Персонал)**
+- **Employee** - Сотрудник
+- **Curator** - Куратор
+- **Restorer** - Реставратор
+- **Skill** - Навыки сотрудника
+
+#### 🖼️ **Exhibition Management (Выставки)**
+- **GalleryHall** - Зал галереи
+- **ExhibitionTheme** - Тема выставки
+
+#### 📋 **Insurance (Страхование)**
+- **InsurancePolicy** - Страховой полис
+
+## 🎯 Основные функции
+
+### Управление произведениями искусства
+- Отслеживание состояния и стоимости
+- Расчет страховки
+- Проверка возможности продажи
+- Определение необходимости реставрации
+
+### Организация выставок
+- Управление расписанием
+- Контроль заполняемости залов
+- Подбор произведений по тематике
+
+### Финансовый учет
+- Обработка транзакций
+- Управление бюджетами
+- Контроль счетов и платежей
+
+### Безопасность
+- Контроль доступа
+- Управление охраной
+- Обеспечение безопасности экспонатов
+
+### Работа с посетителями
+- Продажа билетов
+- Управление членством
+- Контроль доступа на выставки
+
+### Управление персоналом
+- Учет навыков сотрудников
+- Распределение обязанностей
+- Контроль квалификации
+
+## 🧪 Тестирование
+
+Проект включает комплексные unit-тесты для всех основных классов:
+
+```csharp
+// Пример теста для произведения искусства
+[Fact]
+public void CanBeSold_WhenArtworkNotDamaged_ReturnsTrue()
+{
+    var artwork = new Artwork { Condition = ArtworkCondition.Excellent };
+    var result = artwork.CanBeSold();
+    Assert.True(result);
+}
